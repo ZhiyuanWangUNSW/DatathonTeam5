@@ -95,7 +95,7 @@ for i in range(0, total_records, batch_size):
         # Extract the current batch
         batch = df.iloc[i:i + batch_size].copy()
 
-        # Skip rows where 'country' is 'Russian Federation'
+        # Patch where country is china
         batch = batch[batch['country'] == 'China']
         if batch.empty:
             print(f"Batch {i // batch_size + 1}/{total_batches} has no valid URLs to process. Skipping...")
