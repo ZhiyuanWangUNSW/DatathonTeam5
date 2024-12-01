@@ -13,6 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r package}
 library(dplyr)
 library(janitor)
+library(tidyr)
 ```
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
@@ -49,29 +50,145 @@ table(epi_data$country)
 
 ```
 ```{r fake data generator}
-set.seed(42)
+
+# Set seed for reproducibility
+set.seed(123)
 
 # Define parameters
-n <- 500  # Number of rows in the dataset
+n <- 500  # Number of records
 countries <- c("USA", "India", "China", "Brazil", "Australia")
+cities <- list(
+  USA = c("New York", "Los Angeles", "Chicago"),
+  India = c("Mumbai", "Delhi", "Bangalore"),
+  China = c("Beijing", "Shanghai", "Guangzhou"),
+  Brazil = c("Sao Paulo", "Rio de Janeiro", "Brasilia"),
+  Australia = c("Sydney", "Melbourne", "Brisbane")
+)
+coordinates <- list(
+  USA = list(c(40.7128, -74.0060), c(34.0522, -118.2437), c(41.8781, -87.6298)),
+  India = list(c(19.0760, 72.8777), c(28.6139, 77.2090), c(12.9716, 77.5946)),
+  China = list(c(39.9042, 116.4074), c(31.2304, 121.4737), c(23.1291, 113.2644)),
+  Brazil = list(c(-23.5505, -46.6333), c(-22.9068, -43.1729), c(-15.8267, -47.9218)),
+  Australia = list(c(-33.8688, 151.2093), c(-37.8136, 144.9631), c(-27.4698, 153.0251))
+)
 syndromes <- c("Respiratory", "Gastrointestinal", "Neurological", "Skin", "Other")
-pandemic_types <- c("Flu", "Cholera", "SARS", "Zika", "COVID", "Ebola", "Other")
+pandemics <- c("Flu", "Cholera", "SARS", "Zika", "COVID", "Ebola", "Other")
 
-# Generate fake dataset
-fake_data <- tibble(
+# Generate base dataset
+complex_data <- tibble(
+  Record_ID = 1:n,
   Country = sample(countries, n, replace = TRUE),
-  Date = as.Date("2024-01-01") + sample(0:364, n, replace = TRUE),  # Random dates within 2024
-  Case_Name = paste0("Case_", sample(LETTERS, n, replace = TRUE)),
-  Syndrome = sample(syndromes, n, replace = TRUE),
-  Death_Number = sample(0:50, n, replace = TRUE),  # Death numbers between 0 and 50
-  Case_Number = sample(50:1000, n, replace = TRUE),  # Case numbers between 50 and 1000
-  Pandemic_Type = sample(pandemic_types, n, replace = TRUE)
+  Date = as.Date("2024-01-01") + sample(0:364, n, replace = TRUE),
+  Pandemic_Type = sample(pandemics, n, replace = TRUE),
+  Death_Number = sample(0:50, n, replace = TRUE),
+  Case_Number = sample(50:1000, n, replace = TRUE)
 )
 
-# Preview the dataset
-print(fake_data)
+# Assign cities and coordinates based on country
+complex_data <- complex_data %>%
+  rowwise() %>%
+  mutate(
+    City = sample(cities[[Country]], 1),
+    Coordinates = list(sample(coordinates[[Country]], 1))
+  ) %>%
+  ungroup()
 
-write.csv(fake_data, "fake_pandemic_data.csv", row.names = FALSE)
+# Extract latitude and longitude from coordinates
+complex_data <- complex_data %>%
+  mutate(
+    Latitude = sapply(Coordinates, function(x) x[[1]][1]),
+    Longitude = sapply(Coordinates, function(x) x[[1]][2])
+  ) %>%
+  select(-Coordinates)  # Drop nested list column
+```
+
+```{r step2}
+
+str(complex_data)
+
+# Set up syndromes
+syndromes <- c("Respiratory", "Gastrointestinal", "Neurological", "Skin", "Other")
+
+# Add a random list of syndromes for each record
+complex_data <- complex_data %>%
+  rowwise() %>%
+  mutate(
+    Syndromes = list(sample(syndromes, size = sample(1:3, 1), replace = FALSE))  # 1–3 random syndromes
+  ) %>%
+  ungroup()
+
+# Unnest syndromes and prepare for pivoting
+complex_data <- complex_data %>%
+  unnest_longer(Syndromes) %>%
+  mutate(value = 1)  # Add a binary indicator for each syndrome
+
+# Pivot wider to create binary columns for each syndrome
+complex_data <- complex_data %>%
+  pivot_wider(
+    names_from = Syndromes,
+    values_from = value,
+    values_fill = list(value = 0)  # Fill missing syndromes with 0
+  )
+print(complex_data)
+
+write.csv(complex_data, "fake_pandemic_data.csv", row.names = FALSE)
+
+```
+```{r add phase}
+
+# Add a new Phase column with random values from 1 to 6
+complex_data <- complex_data %>%
+  mutate(
+    Phase = sample(paste("Phase", 1:6), n(), replace = TRUE)
+  )
+# View the updated dataset
+print(head(complex_data))
+```
+
+```{r city}
+# Create a data frame with city coordinates
+city_coordinates <- tibble::tibble(
+  City = c("New York", "Los Angeles", "Chicago", "Mumbai", "Delhi", "Bangalore",
+           "Beijing", "Shanghai", "Guangzhou", "Sao Paulo", "Rio de Janeiro", "Brasilia",
+           "Sydney", "Melbourne", "Brisbane"),
+  Latitude = c(40.7128, 34.0522, 41.8781, 19.0760, 28.6139, 12.9716,
+               39.9042, 31.2304, 23.1291, -23.5505, -22.9068, -15.8267,
+               -33.8688, -37.8136, -27.4698),
+  Longitude = c(-74.0060, -118.2437, -87.6298, 72.8777, 77.2090, 77.5946,
+                116.4074, 121.4737, 113.2644, -46.6333, -43.1729, -47.9218,
+                151.2093, 144.9631, 153.0251)
+)
+# Update the complex_data dataset with real coordinates
+complex_data <- complex_data %>%
+  left_join(city_coordinates, by = "City") %>%
+  select(-Latitude.x, -Longitude.x) %>%  # Remove old coordinate columns
+  rename(
+    Latitude = Latitude.y,
+    Longitude = Longitude.y
+  )
+
+# View the updated dataset
+print(head(complex_data))
+
+```
+
+```{r transmission}
+# Create a data frame for disease transmission mapping
+disease_transmission <- tibble::tibble(
+  Pandemic_Type = c("Flu", "Cholera", "SARS", "Zika", "COVID", "Ebola", "Other"),
+  Transmission_Type = c("person-to-person", "person-to-person", "animal-to-person", 
+                        "animal-to-person", "person-to-person", "animal-to-person", 
+                        "unknown")
+)
+# Add transmission type to the dataset
+complex_data <- complex_data %>%
+  left_join(disease_transmission, by = "Pandemic_Type")
+
+# View the updated dataset
+print(head(complex_data))
+
+
+
 
 ```
 ```{r model}
