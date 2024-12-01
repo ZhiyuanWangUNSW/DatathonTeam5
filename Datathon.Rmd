@@ -48,6 +48,50 @@ variable_name <- "country"
 table(epi_data$country)
 
 ```
+```{r fake data generator}
+set.seed(42)
 
+# Define parameters
+n <- 500  # Number of rows in the dataset
+countries <- c("USA", "India", "China", "Brazil", "Australia")
+syndromes <- c("Respiratory", "Gastrointestinal", "Neurological", "Skin", "Other")
+pandemic_types <- c("Flu", "Cholera", "SARS", "Zika", "COVID", "Ebola", "Other")
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+# Generate fake dataset
+fake_data <- tibble(
+  Country = sample(countries, n, replace = TRUE),
+  Date = as.Date("2024-01-01") + sample(0:364, n, replace = TRUE),  # Random dates within 2024
+  Case_Name = paste0("Case_", sample(LETTERS, n, replace = TRUE)),
+  Syndrome = sample(syndromes, n, replace = TRUE),
+  Death_Number = sample(0:50, n, replace = TRUE),  # Death numbers between 0 and 50
+  Case_Number = sample(50:1000, n, replace = TRUE),  # Case numbers between 50 and 1000
+  Pandemic_Type = sample(pandemic_types, n, replace = TRUE)
+)
+
+# Preview the dataset
+print(fake_data)
+
+write.csv(fake_data, "fake_pandemic_data.csv", row.names = FALSE)
+
+```
+```{r model}
+library(forecast)
+
+# Aggregate case numbers by date for a univariate time series
+time_series_data <- fake_data %>%
+  group_by(Date) %>%
+  summarise(Cases = sum(Case_Number)) %>%
+  ungroup()
+
+# Convert to time-series object
+ts_data <- ts(time_series_data$Cases, frequency = 365)
+
+# Fit ARIMA model
+arima_model <- auto.arima(ts_data)
+
+# Forecast future cases
+forecast_data <- forecast(arima_model, h = 30)
+plot(forecast_data)
+
+```
+
