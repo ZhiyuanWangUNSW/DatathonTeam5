@@ -187,6 +187,9 @@ complex_data <- complex_data %>%
 # View the updated dataset
 print(head(complex_data))
 
+```
+```{r summary}
+summary(complex_data)
 
 ```
 ```{r save}
