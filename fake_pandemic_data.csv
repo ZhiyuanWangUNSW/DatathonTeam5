@@ -1,501 +1,501 @@
-"Record_ID","Country","Date","Pandemic_Type","Death_Number","Case_Number","City","Skin","Neurological","Gastrointestinal","Other","Respiratory","Phase","Latitude","Longitude","Transmission_Type"
-1,"China",2024-03-21,"Ebola",26,860,"Shanghai",1,0,0,0,0,"Phase 2",31.2304,121.4737,"animal-to-person"
-2,"China",2024-09-20,"Cholera",10,329,"Guangzhou",0,1,1,0,0,"Phase 6",23.1291,113.2644,"person-to-person"
-3,"India",2024-03-07,"Flu",36,761,"Bangalore",1,0,0,0,0,"Phase 4",12.9716,77.5946,"person-to-person"
-4,"India",2024-12-29,"Other",16,626,"Delhi",0,0,1,0,0,"Phase 2",28.6139,77.209,"unknown"
-5,"China",2024-08-25,"Flu",45,980,"Shanghai",1,1,0,1,0,"Phase 6",31.2304,121.4737,"person-to-person"
-6,"Australia",2024-09-26,"SARS",34,367,"Melbourne",1,0,1,0,0,"Phase 3",-37.8136,144.9631,"animal-to-person"
-7,"Brazil",2024-05-13,"Cholera",41,123,"Rio de Janeiro",1,1,0,0,0,"Phase 3",-22.9068,-43.1729,"person-to-person"
-8,"USA",2024-05-16,"Cholera",12,205,"Los Angeles",1,1,0,1,0,"Phase 6",34.0522,-118.2437,"person-to-person"
-9,"India",2024-06-09,"Ebola",29,101,"Bangalore",0,1,0,0,0,"Phase 5",12.9716,77.5946,"animal-to-person"
-10,"China",2024-04-25,"SARS",30,200,"Guangzhou",1,1,0,0,1,"Phase 3",23.1291,113.2644,"animal-to-person"
-11,"Australia",2024-02-15,"COVID",50,320,"Melbourne",0,0,0,0,1,"Phase 2",-37.8136,144.9631,"person-to-person"
-12,"China",2024-03-04,"COVID",33,216,"Guangzhou",1,0,1,0,0,"Phase 2",23.1291,113.2644,"person-to-person"
-13,"China",2024-01-19,"COVID",16,782,"Beijing",1,0,0,0,0,"Phase 5",39.9042,116.4074,"person-to-person"
-14,"USA",2024-08-16,"Ebola",8,872,"New York",1,1,0,0,0,"Phase 3",40.7128,-74.006,"animal-to-person"
-15,"Brazil",2024-04-07,"Zika",50,647,"Brasilia",0,0,0,1,0,"Phase 3",-15.8267,-47.9218,"animal-to-person"
-16,"USA",2024-05-08,"Flu",49,938,"Los Angeles",0,1,1,0,1,"Phase 2",34.0522,-118.2437,"person-to-person"
-17,"USA",2024-08-07,"Ebola",8,961,"New York",0,1,0,1,1,"Phase 1",40.7128,-74.006,"animal-to-person"
-18,"Australia",2024-06-28,"Ebola",21,912,"Brisbane",0,0,0,0,1,"Phase 6",-27.4698,153.0251,"animal-to-person"
-19,"China",2024-08-09,"Cholera",45,765,"Shanghai",0,1,1,0,0,"Phase 2",31.2304,121.4737,"person-to-person"
-20,"India",2024-11-19,"Zika",46,837,"Bangalore",0,1,1,0,0,"Phase 5",12.9716,77.5946,"animal-to-person"
-21,"India",2024-03-30,"Other",31,634,"Mumbai",0,1,0,1,1,"Phase 2",19.076,72.8777,"unknown"
-22,"USA",2024-05-01,"COVID",37,717,"Los Angeles",0,1,1,0,1,"Phase 2",34.0522,-118.2437,"person-to-person"
-23,"China",2024-11-26,"Cholera",39,820,"Shanghai",1,1,1,0,0,"Phase 6",31.2304,121.4737,"person-to-person"
-24,"Brazil",2024-10-01,"Zika",1,932,"Brasilia",1,0,1,1,0,"Phase 1",-15.8267,-47.9218,"animal-to-person"
-25,"USA",2024-10-17,"Other",0,350,"Los Angeles",0,0,0,1,0,"Phase 1",34.0522,-118.2437,"unknown"
-26,"China",2024-08-18,"Flu",17,878,"Guangzhou",1,0,1,0,1,"Phase 4",23.1291,113.2644,"person-to-person"
-27,"Australia",2024-07-15,"Other",6,490,"Brisbane",0,0,0,1,0,"Phase 2",-27.4698,153.0251,"unknown"
-28,"Brazil",2024-11-12,"COVID",26,621,"Brasilia",1,0,1,1,0,"Phase 4",-15.8267,-47.9218,"person-to-person"
-29,"India",2024-06-17,"Other",6,802,"Delhi",1,1,0,1,0,"Phase 5",28.6139,77.209,"unknown"
-30,"Australia",2024-08-04,"Ebola",35,300,"Brisbane",0,0,0,0,1,"Phase 6",-27.4698,153.0251,"animal-to-person"
-31,"USA",2024-02-18,"Zika",4,763,"Los Angeles",0,0,1,1,1,"Phase 6",34.0522,-118.2437,"animal-to-person"
-32,"USA",2024-12-06,"COVID",10,822,"Chicago",0,1,0,0,0,"Phase 6",41.8781,-87.6298,"person-to-person"
-33,"India",2024-03-09,"Cholera",26,573,"Bangalore",0,0,1,1,1,"Phase 1",12.9716,77.5946,"person-to-person"
-34,"China",2024-11-15,"Ebola",30,182,"Beijing",1,0,1,0,0,"Phase 1",39.9042,116.4074,"animal-to-person"
-35,"Brazil",2024-03-16,"COVID",41,905,"Sao Paulo",0,0,1,1,1,"Phase 4",-23.5505,-46.6333,"person-to-person"
-36,"Australia",2024-01-02,"Ebola",10,111,"Melbourne",0,1,0,0,1,"Phase 2",-37.8136,144.9631,"animal-to-person"
-37,"Australia",2024-09-30,"Zika",27,629,"Melbourne",1,1,1,0,0,"Phase 3",-37.8136,144.9631,"animal-to-person"
-38,"China",2024-09-16,"Flu",32,685,"Guangzhou",0,1,1,1,0,"Phase 4",23.1291,113.2644,"person-to-person"
-39,"USA",2024-04-15,"Cholera",41,403,"Los Angeles",0,0,0,1,0,"Phase 2",34.0522,-118.2437,"person-to-person"
-40,"India",2024-04-20,"Other",31,657,"Delhi",0,1,0,1,1,"Phase 3",28.6139,77.209,"unknown"
-41,"Australia",2024-12-08,"Ebola",22,242,"Melbourne",1,0,0,0,1,"Phase 4",-37.8136,144.9631,"animal-to-person"
-42,"Australia",2024-03-12,"Other",20,644,"Melbourne",0,1,0,0,1,"Phase 4",-37.8136,144.9631,"unknown"
-43,"Brazil",2024-08-16,"Other",43,956,"Rio de Janeiro",0,0,1,0,0,"Phase 3",-22.9068,-43.1729,"unknown"
-44,"Australia",2024-01-11,"Cholera",38,600,"Melbourne",1,0,1,1,0,"Phase 1",-37.8136,144.9631,"person-to-person"
-45,"India",2024-07-25,"Cholera",36,78,"Bangalore",1,0,0,0,1,"Phase 3",12.9716,77.5946,"person-to-person"
-46,"USA",2024-11-30,"Ebola",31,524,"Chicago",1,1,0,0,1,"Phase 6",41.8781,-87.6298,"animal-to-person"
-47,"USA",2024-02-25,"COVID",49,521,"New York",1,0,0,1,0,"Phase 3",40.7128,-74.006,"person-to-person"
-48,"China",2024-04-15,"Other",39,54,"Beijing",1,0,0,0,0,"Phase 2",39.9042,116.4074,"unknown"
-49,"USA",2024-09-27,"COVID",14,474,"New York",0,0,0,1,0,"Phase 3",40.7128,-74.006,"person-to-person"
-50,"Australia",2024-07-25,"SARS",31,587,"Brisbane",0,1,0,0,1,"Phase 3",-27.4698,153.0251,"animal-to-person"
-51,"USA",2024-12-29,"Cholera",6,333,"New York",0,0,0,1,0,"Phase 3",40.7128,-74.006,"person-to-person"
-52,"India",2024-03-29,"Ebola",13,864,"Bangalore",1,0,0,1,0,"Phase 6",12.9716,77.5946,"animal-to-person"
-53,"Brazil",2024-10-18,"Ebola",41,631,"Sao Paulo",1,0,0,1,0,"Phase 5",-23.5505,-46.6333,"animal-to-person"
-54,"Brazil",2024-09-19,"Cholera",47,267,"Sao Paulo",0,1,0,0,0,"Phase 5",-23.5505,-46.6333,"person-to-person"
-55,"China",2024-03-08,"SARS",24,269,"Beijing",0,0,1,1,0,"Phase 6",39.9042,116.4074,"animal-to-person"
-56,"USA",2024-04-29,"Ebola",2,887,"New York",1,0,0,1,0,"Phase 1",40.7128,-74.006,"animal-to-person"
-57,"India",2024-08-19,"SARS",22,936,"Delhi",1,0,0,0,0,"Phase 2",28.6139,77.209,"animal-to-person"
-58,"USA",2024-02-22,"SARS",10,300,"Los Angeles",1,0,1,1,0,"Phase 2",34.0522,-118.2437,"animal-to-person"
-59,"India",2024-12-22,"Zika",30,53,"Delhi",0,0,0,0,1,"Phase 3",28.6139,77.209,"animal-to-person"
-60,"Brazil",2024-10-06,"Other",2,241,"Rio de Janeiro",0,0,1,0,0,"Phase 6",-22.9068,-43.1729,"unknown"
-61,"Australia",2024-08-17,"Flu",7,583,"Sydney",1,1,0,0,1,"Phase 5",-33.8688,151.2093,"person-to-person"
-62,"Australia",2024-11-19,"COVID",26,896,"Brisbane",1,1,0,0,1,"Phase 6",-27.4698,153.0251,"person-to-person"
-63,"China",2024-11-18,"Ebola",26,823,"Guangzhou",1,0,0,1,0,"Phase 4",23.1291,113.2644,"animal-to-person"
-64,"USA",2024-01-11,"Cholera",48,940,"Chicago",0,0,1,0,0,"Phase 5",41.8781,-87.6298,"person-to-person"
-65,"Brazil",2024-03-14,"Flu",24,106,"Rio de Janeiro",0,1,0,1,1,"Phase 5",-22.9068,-43.1729,"person-to-person"
-66,"USA",2024-09-12,"Flu",27,628,"Chicago",0,0,0,1,1,"Phase 4",41.8781,-87.6298,"person-to-person"
-67,"USA",2024-12-14,"Other",27,774,"Los Angeles",1,0,1,0,1,"Phase 4",34.0522,-118.2437,"unknown"
-68,"China",2024-03-28,"Other",12,430,"Beijing",1,0,1,1,0,"Phase 1",39.9042,116.4074,"unknown"
-69,"Brazil",2024-12-10,"Flu",14,635,"Sao Paulo",0,1,0,1,0,"Phase 5",-23.5505,-46.6333,"person-to-person"
-70,"USA",2024-01-11,"Ebola",43,662,"Los Angeles",0,1,0,1,1,"Phase 1",34.0522,-118.2437,"animal-to-person"
-71,"China",2024-03-14,"COVID",40,266,"Shanghai",0,0,0,1,0,"Phase 1",31.2304,121.4737,"person-to-person"
-72,"Australia",2024-08-30,"Flu",50,151,"Melbourne",0,1,1,0,1,"Phase 5",-37.8136,144.9631,"person-to-person"
-73,"China",2024-07-06,"Ebola",50,141,"Beijing",0,1,0,1,1,"Phase 1",39.9042,116.4074,"animal-to-person"
-74,"India",2024-10-13,"Cholera",30,882,"Bangalore",0,1,1,0,1,"Phase 1",12.9716,77.5946,"person-to-person"
-75,"Australia",2024-11-25,"Zika",37,212,"Sydney",0,1,1,0,1,"Phase 4",-33.8688,151.2093,"animal-to-person"
-76,"Australia",2024-06-21,"Cholera",12,857,"Brisbane",0,1,1,0,0,"Phase 4",-27.4698,153.0251,"person-to-person"
-77,"China",2024-11-10,"COVID",40,51,"Beijing",0,0,1,0,0,"Phase 1",39.9042,116.4074,"person-to-person"
-78,"India",2024-10-06,"Cholera",10,735,"Mumbai",0,1,0,0,1,"Phase 5",19.076,72.8777,"person-to-person"
-79,"India",2024-10-17,"Cholera",45,324,"Bangalore",0,0,1,0,0,"Phase 1",12.9716,77.5946,"person-to-person"
-80,"India",2024-08-29,"COVID",50,907,"Delhi",0,0,1,1,1,"Phase 3",28.6139,77.209,"person-to-person"
-81,"Brazil",2024-09-22,"Zika",49,338,"Sao Paulo",0,0,1,0,0,"Phase 4",-23.5505,-46.6333,"animal-to-person"
-82,"India",2024-03-04,"SARS",21,136,"Bangalore",0,0,0,1,0,"Phase 3",12.9716,77.5946,"animal-to-person"
-83,"India",2024-11-23,"Ebola",23,948,"Bangalore",1,0,1,0,0,"Phase 6",12.9716,77.5946,"animal-to-person"
-84,"Brazil",2024-06-20,"COVID",44,726,"Rio de Janeiro",0,0,0,1,0,"Phase 4",-22.9068,-43.1729,"person-to-person"
-85,"Brazil",2024-10-24,"Ebola",11,241,"Rio de Janeiro",1,1,0,1,0,"Phase 4",-22.9068,-43.1729,"animal-to-person"
-86,"USA",2024-06-08,"SARS",50,777,"Chicago",0,0,0,1,0,"Phase 3",41.8781,-87.6298,"animal-to-person"
-87,"China",2024-06-15,"Zika",43,878,"Guangzhou",1,1,0,0,1,"Phase 2",23.1291,113.2644,"animal-to-person"
-88,"China",2024-06-14,"Flu",25,876,"Beijing",1,0,0,0,0,"Phase 6",39.9042,116.4074,"person-to-person"
-89,"USA",2024-01-17,"Ebola",19,369,"Los Angeles",0,1,1,0,0,"Phase 4",34.0522,-118.2437,"animal-to-person"
-90,"China",2024-08-16,"Zika",35,273,"Beijing",1,1,0,0,0,"Phase 3",39.9042,116.4074,"animal-to-person"
-91,"Australia",2024-12-30,"Other",27,830,"Sydney",0,0,1,0,1,"Phase 3",-33.8688,151.2093,"unknown"
-92,"India",2024-03-19,"Ebola",15,634,"Bangalore",1,0,1,0,0,"Phase 2",12.9716,77.5946,"animal-to-person"
-93,"China",2024-08-14,"Cholera",48,817,"Beijing",1,1,0,0,1,"Phase 5",39.9042,116.4074,"person-to-person"
-94,"India",2024-11-17,"Other",43,834,"Delhi",1,0,0,1,0,"Phase 5",28.6139,77.209,"unknown"
-95,"Australia",2024-11-21,"Flu",1,546,"Melbourne",1,0,0,0,0,"Phase 5",-37.8136,144.9631,"person-to-person"
-96,"Australia",2024-04-19,"Ebola",36,418,"Brisbane",1,1,0,1,0,"Phase 1",-27.4698,153.0251,"animal-to-person"
-97,"China",2024-11-10,"COVID",18,912,"Shanghai",1,0,0,0,0,"Phase 4",31.2304,121.4737,"person-to-person"
-98,"Brazil",2024-08-30,"SARS",12,302,"Brasilia",0,0,0,0,1,"Phase 3",-15.8267,-47.9218,"animal-to-person"
-99,"Brazil",2024-09-21,"Zika",38,998,"Brasilia",0,1,0,0,0,"Phase 2",-15.8267,-47.9218,"animal-to-person"
-100,"Brazil",2024-01-23,"Zika",29,569,"Rio de Janeiro",0,1,1,0,0,"Phase 3",-22.9068,-43.1729,"animal-to-person"
-101,"Australia",2024-10-07,"Flu",4,726,"Brisbane",0,0,1,1,0,"Phase 3",-27.4698,153.0251,"person-to-person"
-102,"China",2024-04-21,"Zika",6,829,"Guangzhou",1,1,0,1,0,"Phase 4",23.1291,113.2644,"animal-to-person"
-103,"USA",2024-04-02,"Zika",15,389,"Los Angeles",1,1,0,1,0,"Phase 3",34.0522,-118.2437,"animal-to-person"
-104,"India",2024-10-03,"SARS",43,822,"Delhi",0,0,1,0,0,"Phase 3",28.6139,77.209,"animal-to-person"
-105,"USA",2024-04-28,"Flu",42,553,"Chicago",1,0,0,0,1,"Phase 4",41.8781,-87.6298,"person-to-person"
-106,"India",2024-02-17,"COVID",18,618,"Bangalore",0,0,0,0,1,"Phase 2",12.9716,77.5946,"person-to-person"
-107,"Australia",2024-09-04,"Zika",37,867,"Melbourne",0,1,0,0,0,"Phase 1",-37.8136,144.9631,"animal-to-person"
-108,"China",2024-04-14,"Ebola",25,793,"Beijing",0,0,0,1,0,"Phase 5",39.9042,116.4074,"animal-to-person"
-109,"Brazil",2024-06-19,"SARS",43,228,"Sao Paulo",0,1,1,0,1,"Phase 2",-23.5505,-46.6333,"animal-to-person"
-110,"Brazil",2024-07-02,"Zika",44,724,"Brasilia",0,1,0,0,0,"Phase 6",-15.8267,-47.9218,"animal-to-person"
-111,"USA",2024-01-04,"Zika",37,182,"Chicago",1,1,0,0,1,"Phase 6",41.8781,-87.6298,"animal-to-person"
-112,"Brazil",2024-11-22,"Zika",9,505,"Sao Paulo",1,1,0,1,0,"Phase 6",-23.5505,-46.6333,"animal-to-person"
-113,"USA",2024-11-07,"SARS",39,157,"Los Angeles",0,1,1,0,0,"Phase 5",34.0522,-118.2437,"animal-to-person"
-114,"China",2024-02-19,"SARS",9,86,"Shanghai",0,0,0,0,1,"Phase 5",31.2304,121.4737,"animal-to-person"
-115,"Brazil",2024-05-18,"SARS",37,744,"Brasilia",0,0,1,1,1,"Phase 2",-15.8267,-47.9218,"animal-to-person"
-116,"China",2024-09-02,"Other",26,715,"Shanghai",0,0,1,1,1,"Phase 6",31.2304,121.4737,"unknown"
-117,"Australia",2024-11-26,"Zika",50,877,"Brisbane",1,0,1,1,0,"Phase 5",-27.4698,153.0251,"animal-to-person"
-118,"Brazil",2024-11-11,"Ebola",28,522,"Sao Paulo",0,1,0,0,0,"Phase 1",-23.5505,-46.6333,"animal-to-person"
-119,"Brazil",2024-09-06,"SARS",29,416,"Rio de Janeiro",1,0,1,0,0,"Phase 1",-22.9068,-43.1729,"animal-to-person"
-120,"Brazil",2024-08-17,"SARS",22,233,"Rio de Janeiro",0,0,0,1,0,"Phase 3",-22.9068,-43.1729,"animal-to-person"
-121,"USA",2024-03-25,"Cholera",48,519,"New York",0,1,0,0,0,"Phase 5",40.7128,-74.006,"person-to-person"
-122,"India",2024-11-25,"Other",20,592,"Bangalore",1,1,1,0,0,"Phase 4",12.9716,77.5946,"unknown"
-123,"China",2024-04-30,"Zika",1,423,"Shanghai",1,0,0,0,1,"Phase 4",31.2304,121.4737,"animal-to-person"
-124,"Brazil",2024-04-23,"Ebola",22,869,"Brasilia",0,0,1,0,1,"Phase 4",-15.8267,-47.9218,"animal-to-person"
-125,"China",2024-07-13,"Other",18,954,"Guangzhou",0,1,1,1,0,"Phase 4",23.1291,113.2644,"unknown"
-126,"USA",2024-04-08,"Zika",18,826,"New York",0,1,1,1,0,"Phase 2",40.7128,-74.006,"animal-to-person"
-127,"Australia",2024-04-07,"Other",12,742,"Melbourne",0,0,1,0,0,"Phase 4",-37.8136,144.9631,"unknown"
-128,"Australia",2024-02-27,"Cholera",32,834,"Melbourne",0,1,1,0,0,"Phase 1",-37.8136,144.9631,"person-to-person"
-129,"India",2024-01-13,"Ebola",37,410,"Mumbai",1,0,1,0,1,"Phase 2",19.076,72.8777,"animal-to-person"
-130,"China",2024-01-08,"Other",36,411,"Beijing",1,1,0,0,0,"Phase 3",39.9042,116.4074,"unknown"
-131,"Australia",2024-09-14,"Zika",49,969,"Melbourne",0,0,0,0,1,"Phase 4",-37.8136,144.9631,"animal-to-person"
-132,"USA",2024-05-02,"COVID",6,406,"Chicago",0,1,0,0,1,"Phase 2",41.8781,-87.6298,"person-to-person"
-133,"Brazil",2024-09-18,"Zika",25,368,"Brasilia",0,0,0,1,1,"Phase 1",-15.8267,-47.9218,"animal-to-person"
-134,"India",2024-03-27,"Flu",16,508,"Bangalore",0,0,0,1,0,"Phase 4",12.9716,77.5946,"person-to-person"
-135,"Brazil",2024-01-17,"COVID",46,657,"Rio de Janeiro",1,1,0,0,1,"Phase 5",-22.9068,-43.1729,"person-to-person"
-136,"Australia",2024-07-24,"Other",36,799,"Melbourne",0,0,0,1,1,"Phase 2",-37.8136,144.9631,"unknown"
-137,"Australia",2024-07-17,"SARS",36,204,"Brisbane",0,0,0,1,1,"Phase 5",-27.4698,153.0251,"animal-to-person"
-138,"Australia",2024-03-17,"SARS",31,333,"Sydney",0,0,1,1,1,"Phase 4",-33.8688,151.2093,"animal-to-person"
-139,"Australia",2024-11-23,"Flu",44,682,"Brisbane",0,0,0,1,1,"Phase 3",-27.4698,153.0251,"person-to-person"
-140,"USA",2024-12-23,"Flu",39,272,"New York",1,0,0,0,0,"Phase 3",40.7128,-74.006,"person-to-person"
-141,"India",2024-08-21,"SARS",50,831,"Bangalore",1,1,0,0,1,"Phase 4",12.9716,77.5946,"animal-to-person"
-142,"USA",2024-01-17,"Zika",32,190,"Chicago",0,0,0,0,1,"Phase 2",41.8781,-87.6298,"animal-to-person"
-143,"India",2024-11-22,"Other",35,864,"Bangalore",0,0,0,1,0,"Phase 3",12.9716,77.5946,"unknown"
-144,"Australia",2024-02-24,"Zika",49,831,"Melbourne",0,1,1,1,0,"Phase 6",-37.8136,144.9631,"animal-to-person"
-145,"Australia",2024-01-19,"SARS",3,280,"Sydney",1,1,0,0,1,"Phase 2",-33.8688,151.2093,"animal-to-person"
-146,"USA",2024-08-28,"COVID",39,272,"New York",1,1,0,0,0,"Phase 1",40.7128,-74.006,"person-to-person"
-147,"India",2024-09-27,"Flu",27,251,"Bangalore",0,1,0,0,0,"Phase 2",12.9716,77.5946,"person-to-person"
-148,"Australia",2024-08-05,"COVID",20,398,"Sydney",0,0,0,1,0,"Phase 3",-33.8688,151.2093,"person-to-person"
-149,"Brazil",2024-06-03,"Flu",22,570,"Rio de Janeiro",1,1,0,1,0,"Phase 3",-22.9068,-43.1729,"person-to-person"
-150,"India",2024-07-27,"Flu",35,766,"Delhi",0,1,0,0,0,"Phase 5",28.6139,77.209,"person-to-person"
-151,"India",2024-02-02,"Other",17,639,"Bangalore",0,1,0,1,1,"Phase 5",12.9716,77.5946,"unknown"
-152,"China",2024-11-01,"Zika",45,865,"Shanghai",0,1,1,1,0,"Phase 6",31.2304,121.4737,"animal-to-person"
-153,"USA",2024-09-30,"Ebola",27,118,"New York",1,0,1,1,0,"Phase 4",40.7128,-74.006,"animal-to-person"
-154,"USA",2024-05-27,"SARS",30,651,"New York",0,0,1,0,0,"Phase 3",40.7128,-74.006,"animal-to-person"
-155,"Australia",2024-12-12,"Zika",11,254,"Melbourne",0,0,1,0,0,"Phase 2",-37.8136,144.9631,"animal-to-person"
-156,"Australia",2024-10-24,"Other",10,895,"Brisbane",0,0,1,0,0,"Phase 1",-27.4698,153.0251,"unknown"
-157,"China",2024-03-14,"SARS",23,505,"Beijing",0,0,1,0,1,"Phase 5",39.9042,116.4074,"animal-to-person"
-158,"India",2024-02-22,"Other",29,632,"Mumbai",0,1,1,1,0,"Phase 3",19.076,72.8777,"unknown"
-159,"Australia",2024-11-14,"Flu",10,876,"Sydney",0,0,1,1,0,"Phase 1",-33.8688,151.2093,"person-to-person"
-160,"Australia",2024-11-24,"Cholera",23,881,"Sydney",0,1,0,0,0,"Phase 4",-33.8688,151.2093,"person-to-person"
-161,"China",2024-06-07,"Ebola",16,606,"Beijing",0,0,1,0,1,"Phase 6",39.9042,116.4074,"animal-to-person"
-162,"China",2024-12-04,"SARS",22,874,"Beijing",0,0,0,0,1,"Phase 2",39.9042,116.4074,"animal-to-person"
-163,"USA",2024-02-24,"SARS",33,607,"Chicago",0,0,1,1,1,"Phase 4",41.8781,-87.6298,"animal-to-person"
-164,"Brazil",2024-09-03,"Ebola",9,638,"Sao Paulo",1,1,0,1,0,"Phase 6",-23.5505,-46.6333,"animal-to-person"
-165,"India",2024-01-18,"Flu",3,687,"Delhi",0,1,1,0,1,"Phase 6",28.6139,77.209,"person-to-person"
-166,"USA",2024-12-29,"Flu",5,678,"Chicago",1,1,0,0,0,"Phase 6",41.8781,-87.6298,"person-to-person"
-167,"India",2024-02-13,"Flu",9,990,"Bangalore",0,0,1,0,1,"Phase 5",12.9716,77.5946,"person-to-person"
-168,"Brazil",2024-12-13,"Other",18,543,"Brasilia",1,1,1,0,0,"Phase 3",-15.8267,-47.9218,"unknown"
-169,"Australia",2024-01-21,"Flu",37,453,"Melbourne",1,0,1,1,0,"Phase 6",-37.8136,144.9631,"person-to-person"
-170,"USA",2024-01-29,"Cholera",40,165,"Los Angeles",0,0,0,1,0,"Phase 3",34.0522,-118.2437,"person-to-person"
-171,"USA",2024-03-24,"Cholera",27,220,"New York",1,1,1,0,0,"Phase 5",40.7128,-74.006,"person-to-person"
-172,"USA",2024-01-23,"Ebola",47,928,"Chicago",0,1,0,0,0,"Phase 3",41.8781,-87.6298,"animal-to-person"
-173,"Australia",2024-02-11,"Flu",44,953,"Melbourne",1,0,0,1,0,"Phase 6",-37.8136,144.9631,"person-to-person"
-174,"China",2024-07-15,"Cholera",8,192,"Beijing",0,0,0,0,1,"Phase 5",39.9042,116.4074,"person-to-person"
-175,"USA",2024-07-12,"Other",6,402,"New York",0,0,0,1,0,"Phase 6",40.7128,-74.006,"unknown"
-176,"India",2024-03-22,"Other",50,326,"Bangalore",1,1,1,0,0,"Phase 1",12.9716,77.5946,"unknown"
-177,"India",2024-11-13,"Zika",23,227,"Delhi",0,1,0,1,1,"Phase 6",28.6139,77.209,"animal-to-person"
-178,"USA",2024-03-04,"Flu",41,410,"Los Angeles",0,1,1,1,0,"Phase 1",34.0522,-118.2437,"person-to-person"
-179,"India",2024-03-17,"SARS",17,797,"Mumbai",1,1,0,0,1,"Phase 2",19.076,72.8777,"animal-to-person"
-180,"USA",2024-04-16,"Other",23,898,"New York",0,1,0,0,1,"Phase 6",40.7128,-74.006,"unknown"
-181,"Australia",2024-06-27,"SARS",7,542,"Brisbane",1,0,1,0,0,"Phase 4",-27.4698,153.0251,"animal-to-person"
-182,"India",2024-05-25,"COVID",15,929,"Bangalore",1,1,1,0,0,"Phase 4",12.9716,77.5946,"person-to-person"
-183,"China",2024-09-22,"Ebola",46,747,"Beijing",1,0,0,1,1,"Phase 3",39.9042,116.4074,"animal-to-person"
-184,"Australia",2024-07-19,"Ebola",17,622,"Melbourne",0,1,0,0,1,"Phase 6",-37.8136,144.9631,"animal-to-person"
-185,"Brazil",2024-12-20,"Cholera",28,594,"Sao Paulo",0,1,1,0,1,"Phase 6",-23.5505,-46.6333,"person-to-person"
-186,"Australia",2024-12-04,"Zika",48,366,"Melbourne",1,1,0,0,0,"Phase 1",-37.8136,144.9631,"animal-to-person"
-187,"India",2024-07-18,"Zika",24,806,"Mumbai",0,1,0,0,0,"Phase 3",19.076,72.8777,"animal-to-person"
-188,"USA",2024-08-24,"Cholera",15,968,"Chicago",0,0,1,1,1,"Phase 1",41.8781,-87.6298,"person-to-person"
-189,"Brazil",2024-09-14,"Flu",4,503,"Brasilia",0,1,1,0,1,"Phase 2",-15.8267,-47.9218,"person-to-person"
-190,"India",2024-09-10,"Cholera",22,386,"Delhi",0,0,1,0,0,"Phase 1",28.6139,77.209,"person-to-person"
-191,"Australia",2024-04-21,"COVID",2,333,"Melbourne",0,0,1,1,0,"Phase 3",-37.8136,144.9631,"person-to-person"
-192,"USA",2024-01-05,"Cholera",5,151,"Chicago",0,1,0,0,1,"Phase 3",41.8781,-87.6298,"person-to-person"
-193,"Australia",2024-04-09,"COVID",24,181,"Sydney",1,1,0,1,0,"Phase 6",-33.8688,151.2093,"person-to-person"
-194,"USA",2024-05-22,"Ebola",18,315,"Los Angeles",0,0,1,0,0,"Phase 4",34.0522,-118.2437,"animal-to-person"
-195,"Brazil",2024-08-21,"Flu",10,974,"Rio de Janeiro",0,0,1,0,0,"Phase 2",-22.9068,-43.1729,"person-to-person"
-196,"China",2024-04-12,"SARS",42,224,"Shanghai",0,0,0,0,1,"Phase 3",31.2304,121.4737,"animal-to-person"
-197,"USA",2024-02-27,"Ebola",11,520,"New York",0,0,0,0,1,"Phase 5",40.7128,-74.006,"animal-to-person"
-198,"USA",2024-10-16,"Zika",32,563,"Los Angeles",1,1,1,0,0,"Phase 1",34.0522,-118.2437,"animal-to-person"
-199,"India",2024-10-13,"Flu",7,781,"Mumbai",0,0,0,0,1,"Phase 4",19.076,72.8777,"person-to-person"
-200,"Brazil",2024-01-18,"Flu",6,952,"Brasilia",1,1,1,0,0,"Phase 3",-15.8267,-47.9218,"person-to-person"
-201,"India",2024-10-28,"Zika",14,899,"Bangalore",1,1,1,0,0,"Phase 5",12.9716,77.5946,"animal-to-person"
-202,"USA",2024-09-21,"COVID",36,90,"Chicago",0,1,0,1,1,"Phase 3",41.8781,-87.6298,"person-to-person"
-203,"Australia",2024-03-19,"Cholera",34,50,"Melbourne",1,0,1,0,0,"Phase 2",-37.8136,144.9631,"person-to-person"
-204,"Australia",2024-05-14,"Flu",6,316,"Melbourne",1,1,0,1,0,"Phase 6",-37.8136,144.9631,"person-to-person"
-205,"USA",2024-11-16,"Flu",12,505,"Chicago",1,1,0,0,0,"Phase 5",41.8781,-87.6298,"person-to-person"
-206,"USA",2024-01-09,"Other",19,419,"Chicago",0,1,0,0,0,"Phase 1",41.8781,-87.6298,"unknown"
-207,"Australia",2024-12-20,"Cholera",8,575,"Sydney",1,0,0,1,1,"Phase 2",-33.8688,151.2093,"person-to-person"
-208,"Australia",2024-10-07,"Other",11,57,"Melbourne",1,0,0,1,0,"Phase 6",-37.8136,144.9631,"unknown"
-209,"India",2024-05-09,"Zika",13,313,"Delhi",1,0,1,0,1,"Phase 6",28.6139,77.209,"animal-to-person"
-210,"India",2024-07-14,"SARS",38,760,"Bangalore",0,0,0,1,0,"Phase 4",12.9716,77.5946,"animal-to-person"
-211,"Australia",2024-02-09,"SARS",27,240,"Melbourne",1,1,0,0,1,"Phase 5",-37.8136,144.9631,"animal-to-person"
-212,"USA",2024-05-27,"Ebola",8,112,"New York",1,0,0,0,0,"Phase 2",40.7128,-74.006,"animal-to-person"
-213,"USA",2024-05-18,"Flu",31,739,"Chicago",0,1,0,1,0,"Phase 4",41.8781,-87.6298,"person-to-person"
-214,"Australia",2024-01-18,"Other",35,953,"Melbourne",1,0,0,0,0,"Phase 3",-37.8136,144.9631,"unknown"
-215,"Australia",2024-12-13,"Cholera",18,378,"Sydney",0,1,0,0,1,"Phase 4",-33.8688,151.2093,"person-to-person"
-216,"Brazil",2024-03-07,"COVID",40,215,"Sao Paulo",0,1,0,1,0,"Phase 1",-23.5505,-46.6333,"person-to-person"
-217,"Australia",2024-08-07,"SARS",33,366,"Melbourne",0,1,0,0,1,"Phase 2",-37.8136,144.9631,"animal-to-person"
-218,"Australia",2024-04-02,"Cholera",48,993,"Melbourne",1,0,0,0,1,"Phase 3",-37.8136,144.9631,"person-to-person"
-219,"Brazil",2024-02-08,"SARS",11,748,"Sao Paulo",1,1,0,0,0,"Phase 4",-23.5505,-46.6333,"animal-to-person"
-220,"India",2024-05-30,"SARS",13,411,"Mumbai",1,0,1,0,0,"Phase 2",19.076,72.8777,"animal-to-person"
-221,"Australia",2024-03-19,"Other",9,598,"Brisbane",1,0,0,1,1,"Phase 3",-27.4698,153.0251,"unknown"
-222,"USA",2024-12-09,"Other",38,105,"Chicago",1,0,1,1,0,"Phase 1",41.8781,-87.6298,"unknown"
-223,"USA",2024-06-16,"Cholera",15,430,"New York",0,1,1,0,0,"Phase 5",40.7128,-74.006,"person-to-person"
-224,"India",2024-06-09,"SARS",33,101,"Delhi",0,0,1,0,0,"Phase 3",28.6139,77.209,"animal-to-person"
-225,"USA",2024-01-29,"Zika",9,122,"Chicago",1,1,0,1,0,"Phase 3",41.8781,-87.6298,"animal-to-person"
-226,"India",2024-04-30,"SARS",50,177,"Delhi",1,0,0,1,1,"Phase 6",28.6139,77.209,"animal-to-person"
-227,"Australia",2024-08-28,"SARS",1,180,"Brisbane",0,1,0,0,0,"Phase 6",-27.4698,153.0251,"animal-to-person"
-228,"USA",2024-06-01,"Cholera",20,83,"New York",0,0,0,1,0,"Phase 3",40.7128,-74.006,"person-to-person"
-229,"China",2024-02-11,"COVID",7,148,"Shanghai",0,0,1,1,0,"Phase 5",31.2304,121.4737,"person-to-person"
-230,"India",2024-02-13,"COVID",32,818,"Bangalore",1,1,0,0,1,"Phase 3",12.9716,77.5946,"person-to-person"
-231,"India",2024-08-11,"Zika",32,684,"Bangalore",1,0,0,0,0,"Phase 4",12.9716,77.5946,"animal-to-person"
-232,"Australia",2024-01-08,"Zika",14,985,"Melbourne",0,1,1,0,1,"Phase 1",-37.8136,144.9631,"animal-to-person"
-233,"Brazil",2024-02-08,"Ebola",23,491,"Brasilia",0,0,0,0,1,"Phase 5",-15.8267,-47.9218,"animal-to-person"
-234,"USA",2024-12-17,"Ebola",17,180,"Los Angeles",1,0,1,1,0,"Phase 1",34.0522,-118.2437,"animal-to-person"
-235,"Australia",2024-11-16,"SARS",34,145,"Brisbane",1,0,1,0,0,"Phase 1",-27.4698,153.0251,"animal-to-person"
-236,"India",2024-12-15,"Flu",15,823,"Delhi",0,0,1,0,0,"Phase 2",28.6139,77.209,"person-to-person"
-237,"Australia",2024-11-09,"COVID",3,153,"Sydney",0,0,0,1,1,"Phase 5",-33.8688,151.2093,"person-to-person"
-238,"India",2024-08-04,"COVID",38,768,"Mumbai",1,0,0,1,1,"Phase 2",19.076,72.8777,"person-to-person"
-239,"India",2024-07-02,"COVID",33,898,"Bangalore",0,0,1,0,1,"Phase 6",12.9716,77.5946,"person-to-person"
-240,"Brazil",2024-06-19,"COVID",45,69,"Brasilia",0,0,0,1,0,"Phase 5",-15.8267,-47.9218,"person-to-person"
-241,"China",2024-02-25,"SARS",27,964,"Shanghai",1,0,0,0,0,"Phase 5",31.2304,121.4737,"animal-to-person"
-242,"Brazil",2024-10-04,"Zika",35,195,"Rio de Janeiro",1,0,1,1,0,"Phase 5",-22.9068,-43.1729,"animal-to-person"
-243,"China",2024-04-08,"Ebola",48,148,"Shanghai",0,1,0,1,1,"Phase 6",31.2304,121.4737,"animal-to-person"
-244,"China",2024-05-21,"Other",18,424,"Shanghai",1,0,0,0,0,"Phase 2",31.2304,121.4737,"unknown"
-245,"China",2024-08-16,"Ebola",22,961,"Shanghai",1,1,0,0,1,"Phase 3",31.2304,121.4737,"animal-to-person"
-246,"Australia",2024-03-04,"Flu",7,910,"Sydney",1,0,0,0,0,"Phase 3",-33.8688,151.2093,"person-to-person"
-247,"China",2024-08-29,"COVID",18,700,"Beijing",1,0,0,0,1,"Phase 4",39.9042,116.4074,"person-to-person"
-248,"India",2024-10-06,"Cholera",6,630,"Bangalore",1,0,0,1,0,"Phase 2",12.9716,77.5946,"person-to-person"
-249,"China",2024-08-09,"Flu",11,253,"Guangzhou",0,0,1,1,1,"Phase 6",23.1291,113.2644,"person-to-person"
-250,"USA",2024-01-08,"COVID",1,884,"Los Angeles",0,1,0,0,1,"Phase 1",34.0522,-118.2437,"person-to-person"
-251,"Australia",2024-05-27,"SARS",17,855,"Melbourne",1,0,0,1,0,"Phase 3",-37.8136,144.9631,"animal-to-person"
-252,"USA",2024-03-14,"Ebola",47,341,"Chicago",0,1,0,1,1,"Phase 6",41.8781,-87.6298,"animal-to-person"
-253,"Brazil",2024-03-26,"Flu",22,911,"Sao Paulo",1,1,0,0,1,"Phase 3",-23.5505,-46.6333,"person-to-person"
-254,"India",2024-01-17,"Cholera",48,845,"Bangalore",1,0,0,1,0,"Phase 4",12.9716,77.5946,"person-to-person"
-255,"India",2024-05-16,"Cholera",10,360,"Delhi",0,1,0,0,0,"Phase 3",28.6139,77.209,"person-to-person"
-256,"Brazil",2024-06-11,"Cholera",1,494,"Sao Paulo",0,0,0,0,1,"Phase 6",-23.5505,-46.6333,"person-to-person"
-257,"USA",2024-07-03,"COVID",45,70,"Chicago",0,0,1,1,0,"Phase 6",41.8781,-87.6298,"person-to-person"
-258,"Brazil",2024-05-23,"Ebola",24,145,"Rio de Janeiro",0,0,1,0,1,"Phase 2",-22.9068,-43.1729,"animal-to-person"
-259,"Australia",2024-11-03,"COVID",24,176,"Melbourne",1,1,0,0,0,"Phase 1",-37.8136,144.9631,"person-to-person"
-260,"Australia",2024-12-20,"Zika",16,187,"Brisbane",0,0,1,1,1,"Phase 4",-27.4698,153.0251,"animal-to-person"
-261,"China",2024-02-04,"SARS",21,837,"Beijing",1,0,0,0,1,"Phase 1",39.9042,116.4074,"animal-to-person"
-262,"Australia",2024-01-26,"SARS",12,218,"Brisbane",1,1,0,0,0,"Phase 5",-27.4698,153.0251,"animal-to-person"
-263,"Australia",2024-09-25,"Flu",21,352,"Sydney",0,1,0,1,1,"Phase 6",-33.8688,151.2093,"person-to-person"
-264,"China",2024-02-05,"Ebola",24,923,"Shanghai",1,0,0,0,0,"Phase 1",31.2304,121.4737,"animal-to-person"
-265,"USA",2024-06-23,"SARS",8,591,"New York",0,0,0,0,1,"Phase 5",40.7128,-74.006,"animal-to-person"
-266,"China",2024-01-28,"Ebola",46,227,"Beijing",0,1,0,0,0,"Phase 5",39.9042,116.4074,"animal-to-person"
-267,"Brazil",2024-06-05,"SARS",34,380,"Sao Paulo",0,0,1,0,0,"Phase 5",-23.5505,-46.6333,"animal-to-person"
-268,"India",2024-10-26,"Flu",23,333,"Mumbai",0,0,0,0,1,"Phase 6",19.076,72.8777,"person-to-person"
-269,"Australia",2024-11-05,"Zika",37,131,"Sydney",0,0,0,1,0,"Phase 6",-33.8688,151.2093,"animal-to-person"
-270,"USA",2024-06-01,"Zika",41,812,"Los Angeles",0,0,1,0,0,"Phase 2",34.0522,-118.2437,"animal-to-person"
-271,"Brazil",2024-10-11,"Other",11,243,"Brasilia",0,1,0,0,1,"Phase 1",-15.8267,-47.9218,"unknown"
-272,"China",2024-05-27,"Ebola",14,70,"Shanghai",0,0,0,0,1,"Phase 5",31.2304,121.4737,"animal-to-person"
-273,"USA",2024-04-02,"SARS",40,790,"Los Angeles",0,1,0,0,1,"Phase 1",34.0522,-118.2437,"animal-to-person"
-274,"India",2024-09-25,"SARS",14,662,"Delhi",1,0,0,0,1,"Phase 4",28.6139,77.209,"animal-to-person"
-275,"China",2024-07-23,"SARS",35,293,"Beijing",1,1,0,0,1,"Phase 6",39.9042,116.4074,"animal-to-person"
-276,"China",2024-06-11,"Flu",24,744,"Beijing",0,1,0,0,1,"Phase 6",39.9042,116.4074,"person-to-person"
-277,"USA",2024-01-05,"COVID",40,196,"Chicago",0,1,0,0,1,"Phase 6",41.8781,-87.6298,"person-to-person"
-278,"India",2024-02-25,"Ebola",4,960,"Delhi",0,0,1,0,0,"Phase 2",28.6139,77.209,"animal-to-person"
-279,"USA",2024-03-17,"Zika",13,269,"Chicago",0,0,0,1,1,"Phase 5",41.8781,-87.6298,"animal-to-person"
-280,"India",2024-12-13,"SARS",16,137,"Bangalore",0,1,1,0,0,"Phase 1",12.9716,77.5946,"animal-to-person"
-281,"India",2024-06-20,"COVID",1,275,"Delhi",0,0,0,1,0,"Phase 1",28.6139,77.209,"person-to-person"
-282,"India",2024-03-12,"Flu",50,219,"Mumbai",0,0,0,1,1,"Phase 5",19.076,72.8777,"person-to-person"
-283,"Australia",2024-05-05,"Ebola",36,358,"Sydney",0,0,1,1,1,"Phase 3",-33.8688,151.2093,"animal-to-person"
-284,"Brazil",2024-05-31,"COVID",23,773,"Rio de Janeiro",0,1,1,0,0,"Phase 5",-22.9068,-43.1729,"person-to-person"
-285,"Brazil",2024-07-26,"Flu",10,296,"Rio de Janeiro",0,0,1,1,1,"Phase 3",-22.9068,-43.1729,"person-to-person"
-286,"Australia",2024-03-15,"Ebola",32,886,"Brisbane",1,0,0,1,1,"Phase 5",-27.4698,153.0251,"animal-to-person"
-287,"Brazil",2024-03-27,"Flu",6,195,"Sao Paulo",0,0,0,1,1,"Phase 1",-23.5505,-46.6333,"person-to-person"
-288,"USA",2024-04-03,"SARS",14,780,"Los Angeles",1,0,0,0,1,"Phase 5",34.0522,-118.2437,"animal-to-person"
-289,"India",2024-10-30,"COVID",25,858,"Mumbai",0,0,0,0,1,"Phase 2",19.076,72.8777,"person-to-person"
-290,"USA",2024-09-27,"Ebola",36,784,"Los Angeles",0,0,1,1,0,"Phase 6",34.0522,-118.2437,"animal-to-person"
-291,"India",2024-11-16,"Other",22,636,"Bangalore",1,1,0,0,1,"Phase 3",12.9716,77.5946,"unknown"
-292,"China",2024-06-30,"Ebola",10,910,"Beijing",0,1,0,0,0,"Phase 5",39.9042,116.4074,"animal-to-person"
-293,"India",2024-09-22,"COVID",47,114,"Bangalore",0,1,0,1,1,"Phase 5",12.9716,77.5946,"person-to-person"
-294,"China",2024-03-26,"SARS",24,56,"Shanghai",1,0,0,1,0,"Phase 3",31.2304,121.4737,"animal-to-person"
-295,"USA",2024-02-11,"Ebola",9,95,"Los Angeles",0,0,1,0,1,"Phase 4",34.0522,-118.2437,"animal-to-person"
-296,"Brazil",2024-04-09,"Ebola",33,537,"Brasilia",0,1,1,1,0,"Phase 1",-15.8267,-47.9218,"animal-to-person"
-297,"India",2024-01-25,"COVID",27,212,"Mumbai",0,0,1,0,0,"Phase 1",19.076,72.8777,"person-to-person"
-298,"China",2024-04-03,"Ebola",5,546,"Shanghai",0,0,0,0,1,"Phase 1",31.2304,121.4737,"animal-to-person"
-299,"Australia",2024-06-28,"Zika",11,62,"Sydney",1,0,0,0,1,"Phase 1",-33.8688,151.2093,"animal-to-person"
-300,"Australia",2024-10-19,"Zika",18,385,"Melbourne",0,0,1,1,0,"Phase 4",-37.8136,144.9631,"animal-to-person"
-301,"China",2024-01-27,"Zika",43,429,"Shanghai",1,0,0,0,0,"Phase 3",31.2304,121.4737,"animal-to-person"
-302,"India",2024-07-19,"SARS",34,333,"Bangalore",0,1,0,0,0,"Phase 1",12.9716,77.5946,"animal-to-person"
-303,"Australia",2024-07-29,"Zika",7,914,"Melbourne",1,0,0,0,0,"Phase 1",-37.8136,144.9631,"animal-to-person"
-304,"Brazil",2024-02-04,"COVID",27,930,"Brasilia",0,0,0,0,1,"Phase 6",-15.8267,-47.9218,"person-to-person"
-305,"India",2024-07-09,"Zika",44,313,"Bangalore",1,0,1,1,0,"Phase 2",12.9716,77.5946,"animal-to-person"
-306,"USA",2024-12-08,"Ebola",47,812,"Los Angeles",1,1,0,0,0,"Phase 1",34.0522,-118.2437,"animal-to-person"
-307,"Brazil",2024-03-16,"Cholera",1,100,"Brasilia",0,1,0,0,0,"Phase 3",-15.8267,-47.9218,"person-to-person"
-308,"USA",2024-07-25,"Zika",12,117,"New York",1,1,1,0,0,"Phase 4",40.7128,-74.006,"animal-to-person"
-309,"Brazil",2024-10-17,"SARS",44,669,"Sao Paulo",0,1,1,0,0,"Phase 6",-23.5505,-46.6333,"animal-to-person"
-310,"Australia",2024-06-05,"Flu",37,860,"Melbourne",1,0,0,0,0,"Phase 5",-37.8136,144.9631,"person-to-person"
-311,"Brazil",2024-11-22,"SARS",18,745,"Rio de Janeiro",0,1,0,0,0,"Phase 1",-22.9068,-43.1729,"animal-to-person"
-312,"India",2024-02-03,"COVID",30,316,"Bangalore",1,0,0,0,0,"Phase 3",12.9716,77.5946,"person-to-person"
-313,"India",2024-07-19,"COVID",10,59,"Bangalore",0,1,1,0,0,"Phase 5",12.9716,77.5946,"person-to-person"
-314,"Brazil",2024-10-29,"Cholera",43,504,"Brasilia",0,1,0,0,1,"Phase 2",-15.8267,-47.9218,"person-to-person"
-315,"China",2024-05-08,"SARS",10,646,"Shanghai",1,0,1,0,1,"Phase 6",31.2304,121.4737,"animal-to-person"
-316,"Australia",2024-09-22,"SARS",28,930,"Melbourne",1,0,1,0,1,"Phase 6",-37.8136,144.9631,"animal-to-person"
-317,"India",2024-06-17,"Flu",32,991,"Mumbai",0,1,0,0,0,"Phase 6",19.076,72.8777,"person-to-person"
-318,"China",2024-02-08,"Cholera",26,166,"Shanghai",0,0,0,1,1,"Phase 3",31.2304,121.4737,"person-to-person"
-319,"China",2024-08-29,"Zika",24,252,"Shanghai",1,1,0,1,0,"Phase 3",31.2304,121.4737,"animal-to-person"
-320,"China",2024-12-29,"Ebola",7,563,"Beijing",0,0,1,0,0,"Phase 3",39.9042,116.4074,"animal-to-person"
-321,"USA",2024-08-02,"SARS",32,126,"Los Angeles",1,0,1,1,0,"Phase 1",34.0522,-118.2437,"animal-to-person"
-322,"USA",2024-04-12,"Zika",27,620,"Los Angeles",1,0,0,0,0,"Phase 6",34.0522,-118.2437,"animal-to-person"
-323,"China",2024-03-20,"Cholera",39,174,"Guangzhou",0,1,1,0,0,"Phase 2",23.1291,113.2644,"person-to-person"
-324,"Brazil",2024-12-11,"Zika",43,714,"Sao Paulo",0,0,1,0,0,"Phase 5",-23.5505,-46.6333,"animal-to-person"
-325,"Brazil",2024-01-02,"Zika",7,712,"Sao Paulo",1,0,0,1,0,"Phase 6",-23.5505,-46.6333,"animal-to-person"
-326,"Australia",2024-06-10,"Cholera",15,325,"Sydney",0,1,1,1,0,"Phase 2",-33.8688,151.2093,"person-to-person"
-327,"India",2024-03-18,"Flu",9,757,"Delhi",1,0,1,0,1,"Phase 4",28.6139,77.209,"person-to-person"
-328,"India",2024-06-06,"Flu",14,340,"Bangalore",0,0,0,1,0,"Phase 6",12.9716,77.5946,"person-to-person"
-329,"Brazil",2024-06-04,"COVID",41,763,"Rio de Janeiro",0,0,1,0,1,"Phase 6",-22.9068,-43.1729,"person-to-person"
-330,"India",2024-08-02,"Flu",23,741,"Delhi",1,1,0,1,0,"Phase 5",28.6139,77.209,"person-to-person"
-331,"USA",2024-07-04,"COVID",39,562,"Los Angeles",0,0,1,0,0,"Phase 6",34.0522,-118.2437,"person-to-person"
-332,"Brazil",2024-10-12,"Zika",27,389,"Sao Paulo",0,1,0,0,0,"Phase 6",-23.5505,-46.6333,"animal-to-person"
-333,"China",2024-08-04,"Flu",39,132,"Shanghai",0,1,0,1,0,"Phase 6",31.2304,121.4737,"person-to-person"
-334,"USA",2024-11-21,"Other",1,216,"New York",0,1,0,1,0,"Phase 5",40.7128,-74.006,"unknown"
-335,"Australia",2024-07-13,"Flu",45,171,"Brisbane",0,0,0,1,0,"Phase 6",-27.4698,153.0251,"person-to-person"
-336,"China",2024-07-05,"SARS",17,557,"Guangzhou",0,1,0,1,0,"Phase 2",23.1291,113.2644,"animal-to-person"
-337,"Brazil",2024-04-24,"COVID",10,344,"Rio de Janeiro",1,1,0,1,0,"Phase 3",-22.9068,-43.1729,"person-to-person"
-338,"India",2024-08-25,"COVID",1,145,"Mumbai",1,1,0,1,0,"Phase 1",19.076,72.8777,"person-to-person"
-339,"Australia",2024-02-17,"Flu",18,401,"Brisbane",1,0,1,0,1,"Phase 1",-27.4698,153.0251,"person-to-person"
-340,"Australia",2024-05-17,"Other",47,536,"Melbourne",1,1,1,0,0,"Phase 2",-37.8136,144.9631,"unknown"
-341,"India",2024-01-28,"Ebola",1,112,"Delhi",0,1,1,1,0,"Phase 4",28.6139,77.209,"animal-to-person"
-342,"India",2024-07-22,"Flu",40,86,"Bangalore",1,1,0,0,1,"Phase 6",12.9716,77.5946,"person-to-person"
-343,"India",2024-08-29,"Other",22,475,"Mumbai",1,0,1,1,0,"Phase 6",19.076,72.8777,"unknown"
-344,"USA",2024-11-18,"SARS",4,108,"Los Angeles",0,0,1,0,1,"Phase 3",34.0522,-118.2437,"animal-to-person"
-345,"China",2024-02-13,"Flu",5,225,"Shanghai",0,0,1,0,1,"Phase 2",31.2304,121.4737,"person-to-person"
-346,"Brazil",2024-06-09,"Flu",49,848,"Sao Paulo",1,0,1,0,0,"Phase 6",-23.5505,-46.6333,"person-to-person"
-347,"China",2024-06-12,"SARS",16,647,"Guangzhou",1,1,0,0,0,"Phase 5",23.1291,113.2644,"animal-to-person"
-348,"China",2024-04-24,"SARS",26,236,"Guangzhou",0,1,1,0,1,"Phase 5",23.1291,113.2644,"animal-to-person"
-349,"China",2024-11-30,"Ebola",11,230,"Beijing",0,1,1,0,1,"Phase 2",39.9042,116.4074,"animal-to-person"
-350,"Brazil",2024-03-17,"Cholera",14,390,"Brasilia",1,1,0,1,0,"Phase 2",-15.8267,-47.9218,"person-to-person"
-351,"Brazil",2024-06-22,"Flu",33,141,"Sao Paulo",0,0,0,0,1,"Phase 1",-23.5505,-46.6333,"person-to-person"
-352,"China",2024-04-03,"COVID",13,480,"Guangzhou",1,0,0,0,0,"Phase 4",23.1291,113.2644,"person-to-person"
-353,"Brazil",2024-04-28,"Zika",1,703,"Brasilia",0,0,1,0,1,"Phase 4",-15.8267,-47.9218,"animal-to-person"
-354,"India",2024-05-25,"Other",15,811,"Bangalore",0,0,1,0,1,"Phase 1",12.9716,77.5946,"unknown"
-355,"China",2024-12-29,"COVID",14,394,"Shanghai",1,0,1,0,0,"Phase 1",31.2304,121.4737,"person-to-person"
-356,"Brazil",2024-04-12,"Cholera",9,978,"Rio de Janeiro",1,0,1,0,1,"Phase 6",-22.9068,-43.1729,"person-to-person"
-357,"India",2024-10-08,"COVID",23,470,"Mumbai",0,0,0,0,1,"Phase 1",19.076,72.8777,"person-to-person"
-358,"USA",2024-10-18,"Flu",26,189,"Chicago",1,0,1,0,0,"Phase 5",41.8781,-87.6298,"person-to-person"
-359,"China",2024-02-25,"Ebola",2,645,"Shanghai",0,0,1,1,0,"Phase 1",31.2304,121.4737,"animal-to-person"
-360,"Brazil",2024-11-08,"Other",33,504,"Brasilia",1,1,0,0,1,"Phase 6",-15.8267,-47.9218,"unknown"
-361,"USA",2024-01-03,"SARS",42,909,"Chicago",1,0,0,0,0,"Phase 3",41.8781,-87.6298,"animal-to-person"
-362,"USA",2024-08-04,"Ebola",39,402,"Chicago",1,0,0,0,0,"Phase 1",41.8781,-87.6298,"animal-to-person"
-363,"Brazil",2024-01-11,"Flu",29,666,"Brasilia",0,1,1,0,0,"Phase 5",-15.8267,-47.9218,"person-to-person"
-364,"Brazil",2024-02-20,"Ebola",15,672,"Rio de Janeiro",0,0,1,0,1,"Phase 6",-22.9068,-43.1729,"animal-to-person"
-365,"Australia",2024-09-28,"Flu",8,711,"Melbourne",0,0,1,0,1,"Phase 3",-37.8136,144.9631,"person-to-person"
-366,"USA",2024-01-11,"Ebola",46,72,"Los Angeles",0,1,0,1,1,"Phase 2",34.0522,-118.2437,"animal-to-person"
-367,"Brazil",2024-08-17,"Ebola",12,171,"Sao Paulo",1,0,0,0,1,"Phase 6",-23.5505,-46.6333,"animal-to-person"
-368,"Australia",2024-12-17,"COVID",26,520,"Melbourne",0,0,0,0,1,"Phase 2",-37.8136,144.9631,"person-to-person"
-369,"China",2024-08-10,"Cholera",17,812,"Beijing",1,0,0,0,1,"Phase 2",39.9042,116.4074,"person-to-person"
-370,"India",2024-04-10,"Flu",46,264,"Delhi",0,1,0,0,0,"Phase 5",28.6139,77.209,"person-to-person"
-371,"Australia",2024-05-24,"Other",43,538,"Brisbane",1,0,1,1,0,"Phase 5",-27.4698,153.0251,"unknown"
-372,"Brazil",2024-05-12,"Cholera",8,581,"Rio de Janeiro",1,1,0,0,1,"Phase 3",-22.9068,-43.1729,"person-to-person"
-373,"Brazil",2024-04-24,"SARS",34,413,"Sao Paulo",1,0,0,0,1,"Phase 6",-23.5505,-46.6333,"animal-to-person"
-374,"USA",2024-11-30,"Flu",44,571,"New York",0,0,0,0,1,"Phase 5",40.7128,-74.006,"person-to-person"
-375,"China",2024-08-30,"COVID",8,756,"Guangzhou",1,0,1,0,0,"Phase 5",23.1291,113.2644,"person-to-person"
-376,"China",2024-04-05,"Other",47,442,"Beijing",1,1,0,0,0,"Phase 1",39.9042,116.4074,"unknown"
-377,"China",2024-11-13,"Cholera",4,332,"Beijing",0,0,0,1,0,"Phase 5",39.9042,116.4074,"person-to-person"
-378,"Australia",2024-03-31,"Ebola",39,892,"Melbourne",1,1,0,1,0,"Phase 2",-37.8136,144.9631,"animal-to-person"
-379,"India",2024-03-29,"Cholera",27,408,"Bangalore",0,0,1,1,1,"Phase 1",12.9716,77.5946,"person-to-person"
-380,"Australia",2024-05-22,"Other",17,834,"Brisbane",0,1,0,1,0,"Phase 3",-27.4698,153.0251,"unknown"
-381,"India",2024-05-02,"Flu",5,885,"Bangalore",1,1,0,0,1,"Phase 4",12.9716,77.5946,"person-to-person"
-382,"USA",2024-10-17,"SARS",39,812,"New York",1,1,0,0,1,"Phase 6",40.7128,-74.006,"animal-to-person"
-383,"Brazil",2024-01-30,"Flu",42,909,"Rio de Janeiro",1,0,0,1,1,"Phase 3",-22.9068,-43.1729,"person-to-person"
-384,"India",2024-06-10,"Ebola",42,112,"Delhi",0,1,1,0,1,"Phase 5",28.6139,77.209,"animal-to-person"
-385,"India",2024-03-09,"Ebola",21,173,"Mumbai",0,1,0,0,0,"Phase 2",19.076,72.8777,"animal-to-person"
-386,"China",2024-05-09,"Ebola",25,272,"Shanghai",0,1,0,1,1,"Phase 1",31.2304,121.4737,"animal-to-person"
-387,"Australia",2024-07-26,"Zika",37,722,"Sydney",1,0,0,0,0,"Phase 2",-33.8688,151.2093,"animal-to-person"
-388,"USA",2024-01-23,"Ebola",35,604,"Chicago",0,0,0,1,0,"Phase 1",41.8781,-87.6298,"animal-to-person"
-389,"China",2024-08-03,"Flu",14,530,"Guangzhou",1,1,0,1,0,"Phase 1",23.1291,113.2644,"person-to-person"
-390,"China",2024-10-03,"Zika",48,911,"Beijing",1,0,1,1,0,"Phase 1",39.9042,116.4074,"animal-to-person"
-391,"India",2024-10-01,"Ebola",26,72,"Bangalore",0,0,0,0,1,"Phase 5",12.9716,77.5946,"animal-to-person"
-392,"Australia",2024-07-29,"Cholera",7,406,"Brisbane",1,0,0,1,0,"Phase 1",-27.4698,153.0251,"person-to-person"
-393,"USA",2024-07-29,"Other",21,345,"Los Angeles",0,0,1,0,0,"Phase 5",34.0522,-118.2437,"unknown"
-394,"Brazil",2024-07-15,"SARS",42,834,"Rio de Janeiro",0,1,1,0,1,"Phase 1",-22.9068,-43.1729,"animal-to-person"
-395,"Brazil",2024-06-21,"Ebola",49,136,"Rio de Janeiro",0,1,0,0,0,"Phase 3",-22.9068,-43.1729,"animal-to-person"
-396,"USA",2024-07-26,"Other",24,356,"New York",0,1,1,0,0,"Phase 5",40.7128,-74.006,"unknown"
-397,"China",2024-12-25,"Ebola",13,584,"Shanghai",0,1,0,0,0,"Phase 6",31.2304,121.4737,"animal-to-person"
-398,"Brazil",2024-02-01,"SARS",43,909,"Rio de Janeiro",1,0,0,1,0,"Phase 1",-22.9068,-43.1729,"animal-to-person"
-399,"Brazil",2024-02-17,"COVID",7,577,"Rio de Janeiro",0,1,0,0,0,"Phase 1",-22.9068,-43.1729,"person-to-person"
-400,"USA",2024-09-27,"Flu",2,943,"Chicago",0,1,0,1,0,"Phase 4",41.8781,-87.6298,"person-to-person"
-401,"Australia",2024-06-02,"SARS",41,189,"Sydney",0,0,1,1,0,"Phase 6",-33.8688,151.2093,"animal-to-person"
-402,"China",2024-02-04,"Flu",18,166,"Guangzhou",1,1,0,0,0,"Phase 4",23.1291,113.2644,"person-to-person"
-403,"Brazil",2024-02-24,"Zika",30,679,"Rio de Janeiro",0,1,0,0,1,"Phase 3",-22.9068,-43.1729,"animal-to-person"
-404,"India",2024-05-31,"Ebola",43,145,"Delhi",0,1,0,0,0,"Phase 1",28.6139,77.209,"animal-to-person"
-405,"China",2024-01-17,"Ebola",45,871,"Shanghai",1,0,1,0,0,"Phase 6",31.2304,121.4737,"animal-to-person"
-406,"India",2024-11-22,"Other",44,692,"Delhi",0,0,1,1,0,"Phase 4",28.6139,77.209,"unknown"
-407,"China",2024-11-28,"SARS",5,952,"Shanghai",1,1,0,0,0,"Phase 1",31.2304,121.4737,"animal-to-person"
-408,"China",2024-07-04,"Flu",25,539,"Beijing",1,0,0,0,1,"Phase 2",39.9042,116.4074,"person-to-person"
-409,"USA",2024-09-25,"Other",28,308,"Chicago",0,1,0,0,0,"Phase 6",41.8781,-87.6298,"unknown"
-410,"Australia",2024-11-19,"SARS",38,870,"Sydney",1,0,0,1,1,"Phase 3",-33.8688,151.2093,"animal-to-person"
-411,"Brazil",2024-05-06,"Other",20,965,"Sao Paulo",0,1,0,0,0,"Phase 5",-23.5505,-46.6333,"unknown"
-412,"Brazil",2024-01-25,"Flu",3,580,"Rio de Janeiro",1,0,1,0,1,"Phase 3",-22.9068,-43.1729,"person-to-person"
-413,"Australia",2024-01-29,"Ebola",9,366,"Melbourne",0,1,0,0,1,"Phase 1",-37.8136,144.9631,"animal-to-person"
-414,"China",2024-06-29,"SARS",15,181,"Guangzhou",0,1,1,0,0,"Phase 5",23.1291,113.2644,"animal-to-person"
-415,"India",2024-01-16,"Zika",15,331,"Bangalore",0,1,0,0,0,"Phase 6",12.9716,77.5946,"animal-to-person"
-416,"Brazil",2024-06-17,"Flu",34,441,"Brasilia",0,0,1,0,0,"Phase 5",-15.8267,-47.9218,"person-to-person"
-417,"Australia",2024-08-27,"Flu",50,677,"Brisbane",0,1,0,1,0,"Phase 5",-27.4698,153.0251,"person-to-person"
-418,"India",2024-01-09,"Ebola",50,994,"Bangalore",0,1,0,1,1,"Phase 1",12.9716,77.5946,"animal-to-person"
-419,"China",2024-10-19,"Cholera",38,875,"Shanghai",0,1,1,1,0,"Phase 2",31.2304,121.4737,"person-to-person"
-420,"China",2024-11-05,"COVID",29,960,"Beijing",0,0,1,0,0,"Phase 4",39.9042,116.4074,"person-to-person"
-421,"USA",2024-08-01,"Cholera",20,778,"Chicago",1,1,0,0,0,"Phase 1",41.8781,-87.6298,"person-to-person"
-422,"China",2024-08-25,"COVID",26,762,"Shanghai",1,0,0,0,1,"Phase 5",31.2304,121.4737,"person-to-person"
-423,"India",2024-08-23,"SARS",37,62,"Bangalore",0,1,0,1,1,"Phase 4",12.9716,77.5946,"animal-to-person"
-424,"China",2024-01-24,"Other",46,166,"Beijing",1,0,0,1,0,"Phase 6",39.9042,116.4074,"unknown"
-425,"China",2024-09-26,"Cholera",1,540,"Shanghai",1,0,1,0,0,"Phase 4",31.2304,121.4737,"person-to-person"
-426,"USA",2024-06-06,"Zika",45,750,"Los Angeles",0,0,0,0,1,"Phase 5",34.0522,-118.2437,"animal-to-person"
-427,"India",2024-04-18,"COVID",35,799,"Bangalore",0,1,1,0,0,"Phase 2",12.9716,77.5946,"person-to-person"
-428,"India",2024-07-08,"Ebola",9,278,"Bangalore",0,1,0,0,0,"Phase 2",12.9716,77.5946,"animal-to-person"
-429,"India",2024-04-25,"Flu",36,80,"Mumbai",1,0,0,0,0,"Phase 3",19.076,72.8777,"person-to-person"
-430,"Brazil",2024-10-22,"COVID",43,604,"Brasilia",0,0,1,0,0,"Phase 5",-15.8267,-47.9218,"person-to-person"
-431,"USA",2024-08-10,"Flu",3,680,"New York",0,1,0,1,1,"Phase 5",40.7128,-74.006,"person-to-person"
-432,"Australia",2024-06-15,"Other",34,944,"Melbourne",0,0,1,1,0,"Phase 2",-37.8136,144.9631,"unknown"
-433,"Australia",2024-08-16,"Flu",6,566,"Brisbane",0,1,0,1,1,"Phase 3",-27.4698,153.0251,"person-to-person"
-434,"China",2024-03-12,"Cholera",10,73,"Beijing",1,0,1,0,0,"Phase 1",39.9042,116.4074,"person-to-person"
-435,"China",2024-08-26,"Cholera",46,647,"Shanghai",0,0,0,1,1,"Phase 6",31.2304,121.4737,"person-to-person"
-436,"Australia",2024-09-26,"Flu",1,274,"Melbourne",1,0,0,1,0,"Phase 3",-37.8136,144.9631,"person-to-person"
-437,"USA",2024-11-16,"SARS",40,807,"New York",0,0,0,1,1,"Phase 2",40.7128,-74.006,"animal-to-person"
-438,"Brazil",2024-05-30,"Flu",12,915,"Sao Paulo",0,0,0,1,0,"Phase 6",-23.5505,-46.6333,"person-to-person"
-439,"India",2024-01-26,"Cholera",31,981,"Mumbai",0,0,1,0,0,"Phase 1",19.076,72.8777,"person-to-person"
-440,"Australia",2024-02-15,"SARS",10,236,"Brisbane",0,0,0,1,0,"Phase 3",-27.4698,153.0251,"animal-to-person"
-441,"Brazil",2024-01-23,"Flu",22,983,"Sao Paulo",0,1,1,0,0,"Phase 3",-23.5505,-46.6333,"person-to-person"
-442,"Australia",2024-08-10,"Flu",39,374,"Sydney",0,0,0,1,1,"Phase 2",-33.8688,151.2093,"person-to-person"
-443,"USA",2024-07-09,"Ebola",39,652,"New York",1,0,0,1,1,"Phase 4",40.7128,-74.006,"animal-to-person"
-444,"India",2024-12-02,"Ebola",5,366,"Bangalore",0,1,0,0,1,"Phase 2",12.9716,77.5946,"animal-to-person"
-445,"China",2024-09-12,"Other",4,68,"Shanghai",0,1,0,0,0,"Phase 1",31.2304,121.4737,"unknown"
-446,"USA",2024-02-08,"Cholera",28,829,"Los Angeles",1,0,1,0,0,"Phase 4",34.0522,-118.2437,"person-to-person"
-447,"USA",2024-11-22,"Other",40,82,"Los Angeles",0,0,1,1,1,"Phase 2",34.0522,-118.2437,"unknown"
-448,"China",2024-02-14,"Ebola",40,507,"Guangzhou",1,0,0,0,1,"Phase 5",23.1291,113.2644,"animal-to-person"
-449,"India",2024-10-29,"Zika",36,80,"Bangalore",0,1,0,0,0,"Phase 1",12.9716,77.5946,"animal-to-person"
-450,"Brazil",2024-11-27,"COVID",47,853,"Rio de Janeiro",0,1,0,0,0,"Phase 6",-22.9068,-43.1729,"person-to-person"
-451,"Australia",2024-04-05,"Flu",41,507,"Brisbane",0,0,1,0,0,"Phase 3",-27.4698,153.0251,"person-to-person"
-452,"China",2024-06-22,"COVID",0,192,"Beijing",0,0,1,0,0,"Phase 2",39.9042,116.4074,"person-to-person"
-453,"Brazil",2024-11-11,"Cholera",9,333,"Brasilia",1,1,0,0,1,"Phase 3",-15.8267,-47.9218,"person-to-person"
-454,"Australia",2024-03-23,"Flu",1,789,"Sydney",0,1,1,1,0,"Phase 1",-33.8688,151.2093,"person-to-person"
-455,"China",2024-12-10,"Zika",34,779,"Guangzhou",1,0,0,0,0,"Phase 2",23.1291,113.2644,"animal-to-person"
-456,"USA",2024-05-16,"Other",44,697,"Chicago",0,0,0,1,1,"Phase 4",41.8781,-87.6298,"unknown"
-457,"Australia",2024-04-18,"Ebola",38,391,"Melbourne",1,1,0,0,1,"Phase 6",-37.8136,144.9631,"animal-to-person"
-458,"India",2024-06-07,"Zika",12,863,"Delhi",1,0,0,0,0,"Phase 3",28.6139,77.209,"animal-to-person"
-459,"Brazil",2024-06-14,"Other",27,172,"Rio de Janeiro",0,0,0,0,1,"Phase 2",-22.9068,-43.1729,"unknown"
-460,"India",2024-10-15,"SARS",14,749,"Mumbai",0,0,1,0,0,"Phase 3",19.076,72.8777,"animal-to-person"
-461,"USA",2024-12-01,"Cholera",5,121,"New York",1,0,0,1,0,"Phase 2",40.7128,-74.006,"person-to-person"
-462,"Australia",2024-11-11,"Other",14,859,"Brisbane",0,1,1,1,0,"Phase 2",-27.4698,153.0251,"unknown"
-463,"India",2024-03-12,"Zika",33,887,"Mumbai",1,0,0,0,0,"Phase 3",19.076,72.8777,"animal-to-person"
-464,"Australia",2024-05-12,"Other",48,757,"Brisbane",1,0,1,0,0,"Phase 1",-27.4698,153.0251,"unknown"
-465,"USA",2024-11-14,"SARS",34,860,"Los Angeles",0,1,0,1,0,"Phase 2",34.0522,-118.2437,"animal-to-person"
-466,"USA",2024-07-20,"SARS",49,641,"Los Angeles",0,0,0,0,1,"Phase 1",34.0522,-118.2437,"animal-to-person"
-467,"India",2024-12-13,"Ebola",9,152,"Mumbai",0,0,0,1,0,"Phase 1",19.076,72.8777,"animal-to-person"
-468,"Brazil",2024-02-06,"Cholera",11,752,"Rio de Janeiro",0,0,1,0,0,"Phase 2",-22.9068,-43.1729,"person-to-person"
-469,"India",2024-03-23,"Other",7,473,"Bangalore",0,0,1,1,1,"Phase 5",12.9716,77.5946,"unknown"
-470,"USA",2024-05-23,"Flu",7,272,"Chicago",0,0,0,0,1,"Phase 5",41.8781,-87.6298,"person-to-person"
-471,"USA",2024-01-06,"Ebola",40,534,"New York",1,1,1,0,0,"Phase 5",40.7128,-74.006,"animal-to-person"
-472,"USA",2024-09-08,"Ebola",3,523,"Los Angeles",0,1,1,0,0,"Phase 1",34.0522,-118.2437,"animal-to-person"
-473,"Brazil",2024-06-28,"Ebola",14,991,"Sao Paulo",0,0,1,0,0,"Phase 2",-23.5505,-46.6333,"animal-to-person"
-474,"USA",2024-07-18,"Zika",16,799,"New York",0,0,0,1,0,"Phase 5",40.7128,-74.006,"animal-to-person"
-475,"China",2024-03-29,"COVID",26,325,"Beijing",1,1,0,0,0,"Phase 1",39.9042,116.4074,"person-to-person"
-476,"India",2024-04-04,"COVID",33,568,"Delhi",1,0,0,0,1,"Phase 3",28.6139,77.209,"person-to-person"
-477,"USA",2024-10-28,"COVID",26,762,"Los Angeles",0,0,1,0,0,"Phase 2",34.0522,-118.2437,"person-to-person"
-478,"USA",2024-12-10,"COVID",6,773,"Chicago",0,1,0,1,1,"Phase 3",41.8781,-87.6298,"person-to-person"
-479,"Australia",2024-09-20,"Ebola",26,998,"Sydney",0,1,1,0,0,"Phase 3",-33.8688,151.2093,"animal-to-person"
-480,"Australia",2024-06-19,"Cholera",12,157,"Melbourne",0,1,0,0,0,"Phase 3",-37.8136,144.9631,"person-to-person"
-481,"Brazil",2024-08-31,"Ebola",7,60,"Brasilia",0,1,1,0,1,"Phase 5",-15.8267,-47.9218,"animal-to-person"
-482,"Brazil",2024-10-06,"Cholera",24,610,"Brasilia",0,0,0,1,0,"Phase 5",-15.8267,-47.9218,"person-to-person"
-483,"Brazil",2024-01-05,"Other",25,563,"Brasilia",0,0,1,0,1,"Phase 3",-15.8267,-47.9218,"unknown"
-484,"Australia",2024-05-21,"Ebola",16,302,"Brisbane",0,1,0,1,0,"Phase 1",-27.4698,153.0251,"animal-to-person"
-485,"Brazil",2024-12-22,"Ebola",11,921,"Rio de Janeiro",0,0,0,1,0,"Phase 6",-22.9068,-43.1729,"animal-to-person"
-486,"USA",2024-12-20,"COVID",44,78,"Los Angeles",0,0,1,0,0,"Phase 4",34.0522,-118.2437,"person-to-person"
-487,"China",2024-01-04,"Other",15,264,"Shanghai",1,0,0,0,1,"Phase 3",31.2304,121.4737,"unknown"
-488,"Australia",2024-02-04,"SARS",9,726,"Brisbane",0,0,0,0,1,"Phase 4",-27.4698,153.0251,"animal-to-person"
-489,"Brazil",2024-08-25,"Flu",4,390,"Brasilia",0,1,0,0,0,"Phase 1",-15.8267,-47.9218,"person-to-person"
-490,"India",2024-07-28,"Cholera",46,79,"Mumbai",0,0,1,1,0,"Phase 1",19.076,72.8777,"person-to-person"
-491,"USA",2024-09-22,"Other",5,485,"Chicago",1,1,0,1,0,"Phase 1",41.8781,-87.6298,"unknown"
-492,"Brazil",2024-01-12,"Cholera",20,183,"Brasilia",1,1,0,0,0,"Phase 5",-15.8267,-47.9218,"person-to-person"
-493,"USA",2024-05-07,"COVID",16,752,"New York",0,0,1,1,1,"Phase 6",40.7128,-74.006,"person-to-person"
-494,"China",2024-09-15,"COVID",25,360,"Shanghai",1,0,0,0,0,"Phase 1",31.2304,121.4737,"person-to-person"
-495,"USA",2024-10-08,"Other",36,980,"New York",1,1,0,0,0,"Phase 2",40.7128,-74.006,"unknown"
-496,"China",2024-07-22,"Flu",42,293,"Guangzhou",0,0,1,1,0,"Phase 6",23.1291,113.2644,"person-to-person"
-497,"China",2024-08-16,"Flu",30,76,"Guangzhou",1,1,0,1,0,"Phase 3",23.1291,113.2644,"person-to-person"
-498,"India",2024-02-14,"Cholera",47,511,"Delhi",0,0,0,1,0,"Phase 5",28.6139,77.209,"person-to-person"
-499,"China",2024-09-20,"Cholera",11,602,"Beijing",1,0,0,1,0,"Phase 4",39.9042,116.4074,"person-to-person"
-500,"Brazil",2024-12-04,"Cholera",28,877,"Brasilia",1,1,0,1,0,"Phase 1",-15.8267,-47.9218,"person-to-person"
+"Record_ID","Country","Date","Pandemic_Type","Death_Number","Case_Number","City","Latitude","Longitude","Neurological","Skin","Respiratory","Other","Gastrointestinal"
+1,"China",2024-03-21,"Ebola",26,860,"Shanghai",23.1291,113.2644,1,1,1,0,0
+2,"China",2024-09-20,"Cholera",10,329,"Guangzhou",23.1291,113.2644,1,1,0,1,0
+3,"India",2024-03-07,"Flu",36,761,"Bangalore",19.076,72.8777,0,1,0,1,0
+4,"India",2024-12-29,"Other",16,626,"Delhi",28.6139,77.209,1,0,0,0,0
+5,"China",2024-08-25,"Flu",45,980,"Shanghai",31.2304,121.4737,0,1,1,0,0
+6,"Australia",2024-09-26,"SARS",34,367,"Melbourne",-37.8136,144.9631,0,1,1,1,0
+7,"Brazil",2024-05-13,"Cholera",41,123,"Rio de Janeiro",-23.5505,-46.6333,0,0,1,1,1
+8,"USA",2024-05-16,"Cholera",12,205,"Los Angeles",41.8781,-87.6298,1,0,1,1,0
+9,"India",2024-06-09,"Ebola",29,101,"Bangalore",19.076,72.8777,0,1,0,0,1
+10,"China",2024-04-25,"SARS",30,200,"Guangzhou",23.1291,113.2644,0,1,0,0,1
+11,"Australia",2024-02-15,"COVID",50,320,"Melbourne",-37.8136,144.9631,1,0,0,0,0
+12,"China",2024-03-04,"COVID",33,216,"Guangzhou",39.9042,116.4074,1,0,1,0,0
+13,"China",2024-01-19,"COVID",16,782,"Beijing",23.1291,113.2644,0,1,0,1,0
+14,"USA",2024-08-16,"Ebola",8,872,"New York",41.8781,-87.6298,1,0,1,0,1
+15,"Brazil",2024-04-07,"Zika",50,647,"Brasilia",-15.8267,-47.9218,0,0,1,0,0
+16,"USA",2024-05-08,"Flu",49,938,"Los Angeles",40.7128,-74.006,1,0,0,0,0
+17,"USA",2024-08-07,"Ebola",8,961,"New York",41.8781,-87.6298,0,0,1,0,1
+18,"Australia",2024-06-28,"Ebola",21,912,"Brisbane",-33.8688,151.2093,0,1,1,1,0
+19,"China",2024-08-09,"Cholera",45,765,"Shanghai",31.2304,121.4737,0,0,1,1,1
+20,"India",2024-11-19,"Zika",46,837,"Bangalore",12.9716,77.5946,1,1,0,1,0
+21,"India",2024-03-30,"Other",31,634,"Mumbai",28.6139,77.209,1,0,1,0,0
+22,"USA",2024-05-01,"COVID",37,717,"Los Angeles",40.7128,-74.006,0,1,1,0,0
+23,"China",2024-11-26,"Cholera",39,820,"Shanghai",31.2304,121.4737,0,1,0,0,0
+24,"Brazil",2024-10-01,"Zika",1,932,"Brasilia",-15.8267,-47.9218,1,1,0,0,1
+25,"USA",2024-10-17,"Other",0,350,"Los Angeles",34.0522,-118.2437,0,1,0,0,1
+26,"China",2024-08-18,"Flu",17,878,"Guangzhou",23.1291,113.2644,0,0,0,1,0
+27,"Australia",2024-07-15,"Other",6,490,"Brisbane",-27.4698,153.0251,1,1,0,0,1
+28,"Brazil",2024-11-12,"COVID",26,621,"Brasilia",-22.9068,-43.1729,0,0,0,1,0
+29,"India",2024-06-17,"Other",6,802,"Delhi",19.076,72.8777,1,0,0,0,1
+30,"Australia",2024-08-04,"Ebola",35,300,"Brisbane",-27.4698,153.0251,1,0,0,0,0
+31,"USA",2024-02-18,"Zika",4,763,"Los Angeles",40.7128,-74.006,0,0,1,0,0
+32,"USA",2024-12-06,"COVID",10,822,"Chicago",34.0522,-118.2437,1,0,0,1,1
+33,"India",2024-03-09,"Cholera",26,573,"Bangalore",28.6139,77.209,0,0,1,0,0
+34,"China",2024-11-15,"Ebola",30,182,"Beijing",23.1291,113.2644,1,1,1,0,0
+35,"Brazil",2024-03-16,"COVID",41,905,"Sao Paulo",-23.5505,-46.6333,1,0,1,0,0
+36,"Australia",2024-01-02,"Ebola",10,111,"Melbourne",-27.4698,153.0251,0,1,0,1,1
+37,"Australia",2024-09-30,"Zika",27,629,"Melbourne",-33.8688,151.2093,1,0,1,0,1
+38,"China",2024-09-16,"Flu",32,685,"Guangzhou",23.1291,113.2644,0,1,1,0,1
+39,"USA",2024-04-15,"Cholera",41,403,"Los Angeles",41.8781,-87.6298,1,1,0,0,0
+40,"India",2024-04-20,"Other",31,657,"Delhi",12.9716,77.5946,1,0,0,0,0
+41,"Australia",2024-12-08,"Ebola",22,242,"Melbourne",-37.8136,144.9631,1,0,1,0,1
+42,"Australia",2024-03-12,"Other",20,644,"Melbourne",-37.8136,144.9631,0,0,1,1,1
+43,"Brazil",2024-08-16,"Other",43,956,"Rio de Janeiro",-15.8267,-47.9218,0,1,0,1,0
+44,"Australia",2024-01-11,"Cholera",38,600,"Melbourne",-27.4698,153.0251,0,1,1,0,0
+45,"India",2024-07-25,"Cholera",36,78,"Bangalore",19.076,72.8777,1,0,1,1,0
+46,"USA",2024-11-30,"Ebola",31,524,"Chicago",40.7128,-74.006,1,0,0,1,0
+47,"USA",2024-02-25,"COVID",49,521,"New York",34.0522,-118.2437,0,1,0,1,0
+48,"China",2024-04-15,"Other",39,54,"Beijing",23.1291,113.2644,1,0,0,0,1
+49,"USA",2024-09-27,"COVID",14,474,"New York",41.8781,-87.6298,0,1,1,0,0
+50,"Australia",2024-07-25,"SARS",31,587,"Brisbane",-37.8136,144.9631,0,1,1,0,1
+51,"USA",2024-12-29,"Cholera",6,333,"New York",41.8781,-87.6298,1,0,0,0,1
+52,"India",2024-03-29,"Ebola",13,864,"Bangalore",12.9716,77.5946,1,1,0,0,1
+53,"Brazil",2024-10-18,"Ebola",41,631,"Sao Paulo",-23.5505,-46.6333,0,1,0,1,1
+54,"Brazil",2024-09-19,"Cholera",47,267,"Sao Paulo",-15.8267,-47.9218,0,1,0,0,1
+55,"China",2024-03-08,"SARS",24,269,"Beijing",31.2304,121.4737,0,1,1,0,0
+56,"USA",2024-04-29,"Ebola",2,887,"New York",34.0522,-118.2437,1,1,0,0,1
+57,"India",2024-08-19,"SARS",22,936,"Delhi",19.076,72.8777,1,1,0,0,1
+58,"USA",2024-02-22,"SARS",10,300,"Los Angeles",41.8781,-87.6298,1,0,1,0,1
+59,"India",2024-12-22,"Zika",30,53,"Delhi",12.9716,77.5946,1,1,1,0,0
+60,"Brazil",2024-10-06,"Other",2,241,"Rio de Janeiro",-23.5505,-46.6333,0,0,1,1,0
+61,"Australia",2024-08-17,"Flu",7,583,"Sydney",-27.4698,153.0251,0,1,0,0,0
+62,"Australia",2024-11-19,"COVID",26,896,"Brisbane",-37.8136,144.9631,0,0,1,1,1
+63,"China",2024-11-18,"Ebola",26,823,"Guangzhou",31.2304,121.4737,1,1,1,0,0
+64,"USA",2024-01-11,"Cholera",48,940,"Chicago",34.0522,-118.2437,1,0,0,1,0
+65,"Brazil",2024-03-14,"Flu",24,106,"Rio de Janeiro",-23.5505,-46.6333,1,0,1,0,0
+66,"USA",2024-09-12,"Flu",27,628,"Chicago",41.8781,-87.6298,0,1,0,0,0
+67,"USA",2024-12-14,"Other",27,774,"Los Angeles",40.7128,-74.006,1,1,1,0,0
+68,"China",2024-03-28,"Other",12,430,"Beijing",39.9042,116.4074,0,0,1,1,1
+69,"Brazil",2024-12-10,"Flu",14,635,"Sao Paulo",-23.5505,-46.6333,1,0,0,1,1
+70,"USA",2024-01-11,"Ebola",43,662,"Los Angeles",40.7128,-74.006,0,1,1,0,0
+71,"China",2024-03-14,"COVID",40,266,"Shanghai",39.9042,116.4074,1,0,0,1,0
+72,"Australia",2024-08-30,"Flu",50,151,"Melbourne",-37.8136,144.9631,0,1,0,0,1
+73,"China",2024-07-06,"Ebola",50,141,"Beijing",23.1291,113.2644,1,0,0,0,0
+74,"India",2024-10-13,"Cholera",30,882,"Bangalore",19.076,72.8777,0,1,0,0,0
+75,"Australia",2024-11-25,"Zika",37,212,"Sydney",-37.8136,144.9631,0,0,0,0,1
+76,"Australia",2024-06-21,"Cholera",12,857,"Brisbane",-37.8136,144.9631,1,1,1,0,0
+77,"China",2024-11-10,"COVID",40,51,"Beijing",39.9042,116.4074,1,0,1,0,0
+78,"India",2024-10-06,"Cholera",10,735,"Mumbai",19.076,72.8777,1,0,0,0,1
+79,"India",2024-10-17,"Cholera",45,324,"Bangalore",12.9716,77.5946,1,0,1,0,0
+80,"India",2024-08-29,"COVID",50,907,"Delhi",19.076,72.8777,0,1,0,1,1
+81,"Brazil",2024-09-22,"Zika",49,338,"Sao Paulo",-23.5505,-46.6333,0,0,1,1,1
+82,"India",2024-03-04,"SARS",21,136,"Bangalore",12.9716,77.5946,0,0,1,0,0
+83,"India",2024-11-23,"Ebola",23,948,"Bangalore",19.076,72.8777,1,1,0,0,1
+84,"Brazil",2024-06-20,"COVID",44,726,"Rio de Janeiro",-23.5505,-46.6333,0,0,0,0,1
+85,"Brazil",2024-10-24,"Ebola",11,241,"Rio de Janeiro",-15.8267,-47.9218,1,0,1,1,0
+86,"USA",2024-06-08,"SARS",50,777,"Chicago",34.0522,-118.2437,0,1,0,1,0
+87,"China",2024-06-15,"Zika",43,878,"Guangzhou",31.2304,121.4737,0,1,0,1,1
+88,"China",2024-06-14,"Flu",25,876,"Beijing",31.2304,121.4737,0,0,0,1,0
+89,"USA",2024-01-17,"Ebola",19,369,"Los Angeles",41.8781,-87.6298,1,0,1,0,0
+90,"China",2024-08-16,"Zika",35,273,"Beijing",23.1291,113.2644,0,0,0,0,1
+91,"Australia",2024-12-30,"Other",27,830,"Sydney",-33.8688,151.2093,0,0,1,0,1
+92,"India",2024-03-19,"Ebola",15,634,"Bangalore",12.9716,77.5946,1,0,1,0,0
+93,"China",2024-08-14,"Cholera",48,817,"Beijing",31.2304,121.4737,1,1,0,0,1
+94,"India",2024-11-17,"Other",43,834,"Delhi",12.9716,77.5946,1,0,1,0,0
+95,"Australia",2024-11-21,"Flu",1,546,"Melbourne",-33.8688,151.2093,0,1,1,0,0
+96,"Australia",2024-04-19,"Ebola",36,418,"Brisbane",-33.8688,151.2093,0,0,1,1,1
+97,"China",2024-11-10,"COVID",18,912,"Shanghai",31.2304,121.4737,1,0,1,0,1
+98,"Brazil",2024-08-30,"SARS",12,302,"Brasilia",-22.9068,-43.1729,0,0,1,0,1
+99,"Brazil",2024-09-21,"Zika",38,998,"Brasilia",-22.9068,-43.1729,1,0,1,0,1
+100,"Brazil",2024-01-23,"Zika",29,569,"Rio de Janeiro",-22.9068,-43.1729,1,0,1,1,0
+101,"Australia",2024-10-07,"Flu",4,726,"Brisbane",-37.8136,144.9631,0,1,1,0,0
+102,"China",2024-04-21,"Zika",6,829,"Guangzhou",31.2304,121.4737,0,0,0,0,1
+103,"USA",2024-04-02,"Zika",15,389,"Los Angeles",40.7128,-74.006,0,1,0,0,1
+104,"India",2024-10-03,"SARS",43,822,"Delhi",12.9716,77.5946,0,0,0,1,0
+105,"USA",2024-04-28,"Flu",42,553,"Chicago",40.7128,-74.006,1,1,0,1,0
+106,"India",2024-02-17,"COVID",18,618,"Bangalore",12.9716,77.5946,0,0,0,1,0
+107,"Australia",2024-09-04,"Zika",37,867,"Melbourne",-27.4698,153.0251,1,0,0,1,1
+108,"China",2024-04-14,"Ebola",25,793,"Beijing",23.1291,113.2644,1,0,0,0,1
+109,"Brazil",2024-06-19,"SARS",43,228,"Sao Paulo",-22.9068,-43.1729,0,0,1,0,0
+110,"Brazil",2024-07-02,"Zika",44,724,"Brasilia",-22.9068,-43.1729,0,1,0,0,0
+111,"USA",2024-01-04,"Zika",37,182,"Chicago",40.7128,-74.006,0,0,1,0,0
+112,"Brazil",2024-11-22,"Zika",9,505,"Sao Paulo",-22.9068,-43.1729,1,0,0,0,0
+113,"USA",2024-11-07,"SARS",39,157,"Los Angeles",40.7128,-74.006,0,1,1,0,0
+114,"China",2024-02-19,"SARS",9,86,"Shanghai",23.1291,113.2644,0,0,1,0,0
+115,"Brazil",2024-05-18,"SARS",37,744,"Brasilia",-15.8267,-47.9218,0,0,1,1,1
+116,"China",2024-09-02,"Other",26,715,"Shanghai",39.9042,116.4074,0,1,0,1,0
+117,"Australia",2024-11-26,"Zika",50,877,"Brisbane",-37.8136,144.9631,0,1,0,0,1
+118,"Brazil",2024-11-11,"Ebola",28,522,"Sao Paulo",-22.9068,-43.1729,0,1,1,1,0
+119,"Brazil",2024-09-06,"SARS",29,416,"Rio de Janeiro",-22.9068,-43.1729,1,0,1,1,0
+120,"Brazil",2024-08-17,"SARS",22,233,"Rio de Janeiro",-15.8267,-47.9218,0,1,0,1,0
+121,"USA",2024-03-25,"Cholera",48,519,"New York",40.7128,-74.006,1,0,0,0,1
+122,"India",2024-11-25,"Other",20,592,"Bangalore",12.9716,77.5946,0,0,1,1,0
+123,"China",2024-04-30,"Zika",1,423,"Shanghai",39.9042,116.4074,0,1,1,1,0
+124,"Brazil",2024-04-23,"Ebola",22,869,"Brasilia",-22.9068,-43.1729,0,0,1,1,0
+125,"China",2024-07-13,"Other",18,954,"Guangzhou",23.1291,113.2644,0,1,0,1,0
+126,"USA",2024-04-08,"Zika",18,826,"New York",41.8781,-87.6298,0,1,0,1,1
+127,"Australia",2024-04-07,"Other",12,742,"Melbourne",-33.8688,151.2093,0,1,0,0,1
+128,"Australia",2024-02-27,"Cholera",32,834,"Melbourne",-33.8688,151.2093,0,0,1,0,1
+129,"India",2024-01-13,"Ebola",37,410,"Mumbai",28.6139,77.209,0,1,0,0,0
+130,"China",2024-01-08,"Other",36,411,"Beijing",31.2304,121.4737,0,0,0,1,1
+131,"Australia",2024-09-14,"Zika",49,969,"Melbourne",-33.8688,151.2093,1,1,1,0,0
+132,"USA",2024-05-02,"COVID",6,406,"Chicago",41.8781,-87.6298,0,1,0,0,1
+133,"Brazil",2024-09-18,"Zika",25,368,"Brasilia",-22.9068,-43.1729,0,0,0,1,1
+134,"India",2024-03-27,"Flu",16,508,"Bangalore",12.9716,77.5946,0,1,1,0,0
+135,"Brazil",2024-01-17,"COVID",46,657,"Rio de Janeiro",-23.5505,-46.6333,1,0,0,1,0
+136,"Australia",2024-07-24,"Other",36,799,"Melbourne",-37.8136,144.9631,1,0,0,0,1
+137,"Australia",2024-07-17,"SARS",36,204,"Brisbane",-27.4698,153.0251,0,1,0,1,1
+138,"Australia",2024-03-17,"SARS",31,333,"Sydney",-37.8136,144.9631,0,0,1,1,0
+139,"Australia",2024-11-23,"Flu",44,682,"Brisbane",-27.4698,153.0251,0,0,1,0,0
+140,"USA",2024-12-23,"Flu",39,272,"New York",34.0522,-118.2437,0,0,1,0,1
+141,"India",2024-08-21,"SARS",50,831,"Bangalore",28.6139,77.209,0,0,0,0,1
+142,"USA",2024-01-17,"Zika",32,190,"Chicago",40.7128,-74.006,1,0,0,0,1
+143,"India",2024-11-22,"Other",35,864,"Bangalore",12.9716,77.5946,0,0,0,0,1
+144,"Australia",2024-02-24,"Zika",49,831,"Melbourne",-37.8136,144.9631,1,0,1,0,0
+145,"Australia",2024-01-19,"SARS",3,280,"Sydney",-33.8688,151.2093,1,0,1,0,0
+146,"USA",2024-08-28,"COVID",39,272,"New York",40.7128,-74.006,0,1,0,0,0
+147,"India",2024-09-27,"Flu",27,251,"Bangalore",28.6139,77.209,0,1,1,0,0
+148,"Australia",2024-08-05,"COVID",20,398,"Sydney",-37.8136,144.9631,1,0,1,1,0
+149,"Brazil",2024-06-03,"Flu",22,570,"Rio de Janeiro",-23.5505,-46.6333,1,1,0,0,1
+150,"India",2024-07-27,"Flu",35,766,"Delhi",28.6139,77.209,0,1,0,0,1
+151,"India",2024-02-02,"Other",17,639,"Bangalore",19.076,72.8777,0,1,0,0,0
+152,"China",2024-11-01,"Zika",45,865,"Shanghai",23.1291,113.2644,0,1,1,0,1
+153,"USA",2024-09-30,"Ebola",27,118,"New York",40.7128,-74.006,1,0,0,0,0
+154,"USA",2024-05-27,"SARS",30,651,"New York",40.7128,-74.006,1,1,0,0,1
+155,"Australia",2024-12-12,"Zika",11,254,"Melbourne",-37.8136,144.9631,1,1,0,0,0
+156,"Australia",2024-10-24,"Other",10,895,"Brisbane",-33.8688,151.2093,0,1,0,0,0
+157,"China",2024-03-14,"SARS",23,505,"Beijing",31.2304,121.4737,0,1,1,0,1
+158,"India",2024-02-22,"Other",29,632,"Mumbai",12.9716,77.5946,1,0,1,0,1
+159,"Australia",2024-11-14,"Flu",10,876,"Sydney",-27.4698,153.0251,0,1,0,1,0
+160,"Australia",2024-11-24,"Cholera",23,881,"Sydney",-37.8136,144.9631,0,1,1,1,0
+161,"China",2024-06-07,"Ebola",16,606,"Beijing",31.2304,121.4737,0,1,0,0,0
+162,"China",2024-12-04,"SARS",22,874,"Beijing",39.9042,116.4074,1,1,0,0,0
+163,"USA",2024-02-24,"SARS",33,607,"Chicago",34.0522,-118.2437,0,0,0,0,1
+164,"Brazil",2024-09-03,"Ebola",9,638,"Sao Paulo",-23.5505,-46.6333,1,0,0,1,0
+165,"India",2024-01-18,"Flu",3,687,"Delhi",19.076,72.8777,1,1,0,0,1
+166,"USA",2024-12-29,"Flu",5,678,"Chicago",41.8781,-87.6298,1,0,1,0,0
+167,"India",2024-02-13,"Flu",9,990,"Bangalore",12.9716,77.5946,1,0,0,0,0
+168,"Brazil",2024-12-13,"Other",18,543,"Brasilia",-15.8267,-47.9218,0,1,0,0,0
+169,"Australia",2024-01-21,"Flu",37,453,"Melbourne",-27.4698,153.0251,1,1,0,1,0
+170,"USA",2024-01-29,"Cholera",40,165,"Los Angeles",40.7128,-74.006,0,1,1,0,1
+171,"USA",2024-03-24,"Cholera",27,220,"New York",40.7128,-74.006,1,1,0,0,0
+172,"USA",2024-01-23,"Ebola",47,928,"Chicago",40.7128,-74.006,0,0,0,1,1
+173,"Australia",2024-02-11,"Flu",44,953,"Melbourne",-27.4698,153.0251,1,0,0,1,1
+174,"China",2024-07-15,"Cholera",8,192,"Beijing",23.1291,113.2644,1,0,0,1,0
+175,"USA",2024-07-12,"Other",6,402,"New York",41.8781,-87.6298,0,1,0,1,1
+176,"India",2024-03-22,"Other",50,326,"Bangalore",28.6139,77.209,0,0,1,1,0
+177,"India",2024-11-13,"Zika",23,227,"Delhi",12.9716,77.5946,0,0,1,1,1
+178,"USA",2024-03-04,"Flu",41,410,"Los Angeles",34.0522,-118.2437,0,0,1,1,0
+179,"India",2024-03-17,"SARS",17,797,"Mumbai",12.9716,77.5946,0,0,1,0,0
+180,"USA",2024-04-16,"Other",23,898,"New York",34.0522,-118.2437,1,1,0,0,1
+181,"Australia",2024-06-27,"SARS",7,542,"Brisbane",-37.8136,144.9631,0,0,1,0,0
+182,"India",2024-05-25,"COVID",15,929,"Bangalore",28.6139,77.209,0,0,0,0,1
+183,"China",2024-09-22,"Ebola",46,747,"Beijing",39.9042,116.4074,0,0,0,1,1
+184,"Australia",2024-07-19,"Ebola",17,622,"Melbourne",-37.8136,144.9631,0,0,0,1,0
+185,"Brazil",2024-12-20,"Cholera",28,594,"Sao Paulo",-22.9068,-43.1729,0,1,0,1,1
+186,"Australia",2024-12-04,"Zika",48,366,"Melbourne",-27.4698,153.0251,0,0,1,1,1
+187,"India",2024-07-18,"Zika",24,806,"Mumbai",19.076,72.8777,1,0,1,0,1
+188,"USA",2024-08-24,"Cholera",15,968,"Chicago",40.7128,-74.006,0,1,0,1,1
+189,"Brazil",2024-09-14,"Flu",4,503,"Brasilia",-15.8267,-47.9218,0,0,0,1,0
+190,"India",2024-09-10,"Cholera",22,386,"Delhi",12.9716,77.5946,0,0,0,1,0
+191,"Australia",2024-04-21,"COVID",2,333,"Melbourne",-33.8688,151.2093,1,0,0,0,0
+192,"USA",2024-01-05,"Cholera",5,151,"Chicago",41.8781,-87.6298,1,1,0,0,0
+193,"Australia",2024-04-09,"COVID",24,181,"Sydney",-33.8688,151.2093,0,0,1,1,0
+194,"USA",2024-05-22,"Ebola",18,315,"Los Angeles",34.0522,-118.2437,1,0,0,1,0
+195,"Brazil",2024-08-21,"Flu",10,974,"Rio de Janeiro",-22.9068,-43.1729,0,0,0,0,1
+196,"China",2024-04-12,"SARS",42,224,"Shanghai",39.9042,116.4074,1,0,1,1,0
+197,"USA",2024-02-27,"Ebola",11,520,"New York",34.0522,-118.2437,0,1,0,1,0
+198,"USA",2024-10-16,"Zika",32,563,"Los Angeles",40.7128,-74.006,1,0,0,1,1
+199,"India",2024-10-13,"Flu",7,781,"Mumbai",28.6139,77.209,0,1,1,1,0
+200,"Brazil",2024-01-18,"Flu",6,952,"Brasilia",-22.9068,-43.1729,1,0,1,1,0
+201,"India",2024-10-28,"Zika",14,899,"Bangalore",28.6139,77.209,0,0,1,0,0
+202,"USA",2024-09-21,"COVID",36,90,"Chicago",34.0522,-118.2437,1,1,0,0,1
+203,"Australia",2024-03-19,"Cholera",34,50,"Melbourne",-37.8136,144.9631,0,1,0,1,0
+204,"Australia",2024-05-14,"Flu",6,316,"Melbourne",-33.8688,151.2093,0,1,0,0,1
+205,"USA",2024-11-16,"Flu",12,505,"Chicago",34.0522,-118.2437,0,0,1,0,0
+206,"USA",2024-01-09,"Other",19,419,"Chicago",34.0522,-118.2437,1,0,0,0,0
+207,"Australia",2024-12-20,"Cholera",8,575,"Sydney",-37.8136,144.9631,0,0,1,0,0
+208,"Australia",2024-10-07,"Other",11,57,"Melbourne",-33.8688,151.2093,1,0,1,0,0
+209,"India",2024-05-09,"Zika",13,313,"Delhi",28.6139,77.209,0,1,0,1,1
+210,"India",2024-07-14,"SARS",38,760,"Bangalore",12.9716,77.5946,1,1,0,0,0
+211,"Australia",2024-02-09,"SARS",27,240,"Melbourne",-37.8136,144.9631,0,1,1,0,1
+212,"USA",2024-05-27,"Ebola",8,112,"New York",40.7128,-74.006,1,0,0,1,0
+213,"USA",2024-05-18,"Flu",31,739,"Chicago",34.0522,-118.2437,1,1,0,0,0
+214,"Australia",2024-01-18,"Other",35,953,"Melbourne",-27.4698,153.0251,1,0,0,0,1
+215,"Australia",2024-12-13,"Cholera",18,378,"Sydney",-33.8688,151.2093,0,0,1,1,0
+216,"Brazil",2024-03-07,"COVID",40,215,"Sao Paulo",-22.9068,-43.1729,0,0,1,0,0
+217,"Australia",2024-08-07,"SARS",33,366,"Melbourne",-33.8688,151.2093,1,1,0,0,1
+218,"Australia",2024-04-02,"Cholera",48,993,"Melbourne",-37.8136,144.9631,1,0,0,0,0
+219,"Brazil",2024-02-08,"SARS",11,748,"Sao Paulo",-22.9068,-43.1729,0,1,1,0,1
+220,"India",2024-05-30,"SARS",13,411,"Mumbai",19.076,72.8777,0,1,0,1,1
+221,"Australia",2024-03-19,"Other",9,598,"Brisbane",-33.8688,151.2093,0,1,0,0,1
+222,"USA",2024-12-09,"Other",38,105,"Chicago",34.0522,-118.2437,1,0,0,0,1
+223,"USA",2024-06-16,"Cholera",15,430,"New York",41.8781,-87.6298,1,1,1,0,0
+224,"India",2024-06-09,"SARS",33,101,"Delhi",28.6139,77.209,0,1,0,1,0
+225,"USA",2024-01-29,"Zika",9,122,"Chicago",40.7128,-74.006,0,1,1,0,1
+226,"India",2024-04-30,"SARS",50,177,"Delhi",28.6139,77.209,0,1,1,0,1
+227,"Australia",2024-08-28,"SARS",1,180,"Brisbane",-33.8688,151.2093,0,1,0,1,0
+228,"USA",2024-06-01,"Cholera",20,83,"New York",34.0522,-118.2437,0,0,0,0,1
+229,"China",2024-02-11,"COVID",7,148,"Shanghai",39.9042,116.4074,0,0,1,1,0
+230,"India",2024-02-13,"COVID",32,818,"Bangalore",19.076,72.8777,0,0,1,0,0
+231,"India",2024-08-11,"Zika",32,684,"Bangalore",12.9716,77.5946,0,1,0,1,0
+232,"Australia",2024-01-08,"Zika",14,985,"Melbourne",-37.8136,144.9631,0,1,0,0,1
+233,"Brazil",2024-02-08,"Ebola",23,491,"Brasilia",-23.5505,-46.6333,0,0,1,1,1
+234,"USA",2024-12-17,"Ebola",17,180,"Los Angeles",41.8781,-87.6298,0,0,1,0,1
+235,"Australia",2024-11-16,"SARS",34,145,"Brisbane",-33.8688,151.2093,1,0,0,0,1
+236,"India",2024-12-15,"Flu",15,823,"Delhi",19.076,72.8777,0,0,0,1,0
+237,"Australia",2024-11-09,"COVID",3,153,"Sydney",-27.4698,153.0251,0,0,1,0,0
+238,"India",2024-08-04,"COVID",38,768,"Mumbai",28.6139,77.209,1,0,0,1,1
+239,"India",2024-07-02,"COVID",33,898,"Bangalore",12.9716,77.5946,1,1,0,1,0
+240,"Brazil",2024-06-19,"COVID",45,69,"Brasilia",-15.8267,-47.9218,0,0,1,0,0
+241,"China",2024-02-25,"SARS",27,964,"Shanghai",31.2304,121.4737,1,1,0,0,1
+242,"Brazil",2024-10-04,"Zika",35,195,"Rio de Janeiro",-22.9068,-43.1729,0,0,1,1,0
+243,"China",2024-04-08,"Ebola",48,148,"Shanghai",23.1291,113.2644,0,0,1,1,1
+244,"China",2024-05-21,"Other",18,424,"Shanghai",23.1291,113.2644,0,1,0,1,1
+245,"China",2024-08-16,"Ebola",22,961,"Shanghai",39.9042,116.4074,0,0,0,0,1
+246,"Australia",2024-03-04,"Flu",7,910,"Sydney",-33.8688,151.2093,0,0,0,1,0
+247,"China",2024-08-29,"COVID",18,700,"Beijing",23.1291,113.2644,1,0,1,1,0
+248,"India",2024-10-06,"Cholera",6,630,"Bangalore",28.6139,77.209,0,1,1,0,0
+249,"China",2024-08-09,"Flu",11,253,"Guangzhou",31.2304,121.4737,0,1,0,1,0
+250,"USA",2024-01-08,"COVID",1,884,"Los Angeles",34.0522,-118.2437,1,0,0,0,0
+251,"Australia",2024-05-27,"SARS",17,855,"Melbourne",-27.4698,153.0251,1,0,1,1,0
+252,"USA",2024-03-14,"Ebola",47,341,"Chicago",34.0522,-118.2437,0,1,0,0,0
+253,"Brazil",2024-03-26,"Flu",22,911,"Sao Paulo",-23.5505,-46.6333,1,1,1,0,0
+254,"India",2024-01-17,"Cholera",48,845,"Bangalore",12.9716,77.5946,0,1,0,0,1
+255,"India",2024-05-16,"Cholera",10,360,"Delhi",28.6139,77.209,0,0,1,1,1
+256,"Brazil",2024-06-11,"Cholera",1,494,"Sao Paulo",-22.9068,-43.1729,1,0,0,1,1
+257,"USA",2024-07-03,"COVID",45,70,"Chicago",34.0522,-118.2437,0,1,1,0,1
+258,"Brazil",2024-05-23,"Ebola",24,145,"Rio de Janeiro",-22.9068,-43.1729,0,1,1,1,0
+259,"Australia",2024-11-03,"COVID",24,176,"Melbourne",-27.4698,153.0251,0,0,0,1,1
+260,"Australia",2024-12-20,"Zika",16,187,"Brisbane",-37.8136,144.9631,0,1,1,0,0
+261,"China",2024-02-04,"SARS",21,837,"Beijing",39.9042,116.4074,0,0,1,0,0
+262,"Australia",2024-01-26,"SARS",12,218,"Brisbane",-37.8136,144.9631,0,0,1,0,0
+263,"Australia",2024-09-25,"Flu",21,352,"Sydney",-37.8136,144.9631,1,0,0,0,0
+264,"China",2024-02-05,"Ebola",24,923,"Shanghai",39.9042,116.4074,0,0,1,1,1
+265,"USA",2024-06-23,"SARS",8,591,"New York",34.0522,-118.2437,1,1,0,0,1
+266,"China",2024-01-28,"Ebola",46,227,"Beijing",31.2304,121.4737,1,0,0,0,0
+267,"Brazil",2024-06-05,"SARS",34,380,"Sao Paulo",-23.5505,-46.6333,0,1,0,0,1
+268,"India",2024-10-26,"Flu",23,333,"Mumbai",12.9716,77.5946,0,0,0,0,1
+269,"Australia",2024-11-05,"Zika",37,131,"Sydney",-33.8688,151.2093,0,1,1,0,1
+270,"USA",2024-06-01,"Zika",41,812,"Los Angeles",41.8781,-87.6298,1,0,0,0,0
+271,"Brazil",2024-10-11,"Other",11,243,"Brasilia",-22.9068,-43.1729,1,1,1,0,0
+272,"China",2024-05-27,"Ebola",14,70,"Shanghai",39.9042,116.4074,0,1,1,1,0
+273,"USA",2024-04-02,"SARS",40,790,"Los Angeles",40.7128,-74.006,0,0,0,0,1
+274,"India",2024-09-25,"SARS",14,662,"Delhi",12.9716,77.5946,0,1,0,0,0
+275,"China",2024-07-23,"SARS",35,293,"Beijing",39.9042,116.4074,0,0,0,0,1
+276,"China",2024-06-11,"Flu",24,744,"Beijing",31.2304,121.4737,1,0,1,0,0
+277,"USA",2024-01-05,"COVID",40,196,"Chicago",40.7128,-74.006,1,1,0,0,0
+278,"India",2024-02-25,"Ebola",4,960,"Delhi",28.6139,77.209,0,0,1,0,1
+279,"USA",2024-03-17,"Zika",13,269,"Chicago",40.7128,-74.006,0,0,0,1,0
+280,"India",2024-12-13,"SARS",16,137,"Bangalore",19.076,72.8777,0,0,1,0,1
+281,"India",2024-06-20,"COVID",1,275,"Delhi",12.9716,77.5946,1,0,1,0,0
+282,"India",2024-03-12,"Flu",50,219,"Mumbai",28.6139,77.209,0,0,1,1,1
+283,"Australia",2024-05-05,"Ebola",36,358,"Sydney",-27.4698,153.0251,0,1,0,1,0
+284,"Brazil",2024-05-31,"COVID",23,773,"Rio de Janeiro",-23.5505,-46.6333,1,1,0,0,0
+285,"Brazil",2024-07-26,"Flu",10,296,"Rio de Janeiro",-22.9068,-43.1729,1,1,0,1,0
+286,"Australia",2024-03-15,"Ebola",32,886,"Brisbane",-33.8688,151.2093,1,0,1,0,1
+287,"Brazil",2024-03-27,"Flu",6,195,"Sao Paulo",-22.9068,-43.1729,1,0,1,1,0
+288,"USA",2024-04-03,"SARS",14,780,"Los Angeles",34.0522,-118.2437,0,1,1,0,1
+289,"India",2024-10-30,"COVID",25,858,"Mumbai",28.6139,77.209,0,0,0,0,1
+290,"USA",2024-09-27,"Ebola",36,784,"Los Angeles",34.0522,-118.2437,1,0,0,1,1
+291,"India",2024-11-16,"Other",22,636,"Bangalore",19.076,72.8777,1,0,0,0,1
+292,"China",2024-06-30,"Ebola",10,910,"Beijing",31.2304,121.4737,0,0,0,1,0
+293,"India",2024-09-22,"COVID",47,114,"Bangalore",28.6139,77.209,0,0,1,0,1
+294,"China",2024-03-26,"SARS",24,56,"Shanghai",31.2304,121.4737,1,0,1,0,0
+295,"USA",2024-02-11,"Ebola",9,95,"Los Angeles",41.8781,-87.6298,0,1,1,0,1
+296,"Brazil",2024-04-09,"Ebola",33,537,"Brasilia",-23.5505,-46.6333,1,1,0,1,0
+297,"India",2024-01-25,"COVID",27,212,"Mumbai",28.6139,77.209,1,0,0,0,0
+298,"China",2024-04-03,"Ebola",5,546,"Shanghai",39.9042,116.4074,1,0,0,0,0
+299,"Australia",2024-06-28,"Zika",11,62,"Sydney",-37.8136,144.9631,1,0,0,0,1
+300,"Australia",2024-10-19,"Zika",18,385,"Melbourne",-27.4698,153.0251,0,0,0,0,1
+301,"China",2024-01-27,"Zika",43,429,"Shanghai",31.2304,121.4737,0,1,0,1,1
+302,"India",2024-07-19,"SARS",34,333,"Bangalore",28.6139,77.209,1,1,0,0,0
+303,"Australia",2024-07-29,"Zika",7,914,"Melbourne",-33.8688,151.2093,0,0,0,1,0
+304,"Brazil",2024-02-04,"COVID",27,930,"Brasilia",-23.5505,-46.6333,0,0,0,1,0
+305,"India",2024-07-09,"Zika",44,313,"Bangalore",28.6139,77.209,1,0,1,0,1
+306,"USA",2024-12-08,"Ebola",47,812,"Los Angeles",40.7128,-74.006,0,0,1,1,0
+307,"Brazil",2024-03-16,"Cholera",1,100,"Brasilia",-22.9068,-43.1729,0,0,0,1,1
+308,"USA",2024-07-25,"Zika",12,117,"New York",40.7128,-74.006,0,0,0,1,0
+309,"Brazil",2024-10-17,"SARS",44,669,"Sao Paulo",-22.9068,-43.1729,0,0,0,1,1
+310,"Australia",2024-06-05,"Flu",37,860,"Melbourne",-37.8136,144.9631,0,1,1,1,0
+311,"Brazil",2024-11-22,"SARS",18,745,"Rio de Janeiro",-22.9068,-43.1729,0,0,1,0,1
+312,"India",2024-02-03,"COVID",30,316,"Bangalore",28.6139,77.209,0,0,1,1,0
+313,"India",2024-07-19,"COVID",10,59,"Bangalore",12.9716,77.5946,1,0,0,1,1
+314,"Brazil",2024-10-29,"Cholera",43,504,"Brasilia",-15.8267,-47.9218,0,0,1,0,1
+315,"China",2024-05-08,"SARS",10,646,"Shanghai",23.1291,113.2644,0,1,0,0,0
+316,"Australia",2024-09-22,"SARS",28,930,"Melbourne",-27.4698,153.0251,0,0,1,1,0
+317,"India",2024-06-17,"Flu",32,991,"Mumbai",12.9716,77.5946,0,0,0,0,1
+318,"China",2024-02-08,"Cholera",26,166,"Shanghai",31.2304,121.4737,1,0,1,1,0
+319,"China",2024-08-29,"Zika",24,252,"Shanghai",23.1291,113.2644,0,0,1,0,0
+320,"China",2024-12-29,"Ebola",7,563,"Beijing",39.9042,116.4074,1,0,0,0,1
+321,"USA",2024-08-02,"SARS",32,126,"Los Angeles",34.0522,-118.2437,1,0,1,0,1
+322,"USA",2024-04-12,"Zika",27,620,"Los Angeles",40.7128,-74.006,0,1,0,1,1
+323,"China",2024-03-20,"Cholera",39,174,"Guangzhou",31.2304,121.4737,0,0,0,0,1
+324,"Brazil",2024-12-11,"Zika",43,714,"Sao Paulo",-23.5505,-46.6333,0,1,1,1,0
+325,"Brazil",2024-01-02,"Zika",7,712,"Sao Paulo",-15.8267,-47.9218,0,1,0,1,1
+326,"Australia",2024-06-10,"Cholera",15,325,"Sydney",-27.4698,153.0251,1,1,0,0,0
+327,"India",2024-03-18,"Flu",9,757,"Delhi",28.6139,77.209,0,0,1,0,0
+328,"India",2024-06-06,"Flu",14,340,"Bangalore",28.6139,77.209,0,1,0,0,0
+329,"Brazil",2024-06-04,"COVID",41,763,"Rio de Janeiro",-15.8267,-47.9218,1,0,0,1,1
+330,"India",2024-08-02,"Flu",23,741,"Delhi",28.6139,77.209,1,0,1,1,0
+331,"USA",2024-07-04,"COVID",39,562,"Los Angeles",40.7128,-74.006,1,1,1,0,0
+332,"Brazil",2024-10-12,"Zika",27,389,"Sao Paulo",-15.8267,-47.9218,1,1,0,1,0
+333,"China",2024-08-04,"Flu",39,132,"Shanghai",39.9042,116.4074,1,0,0,0,0
+334,"USA",2024-11-21,"Other",1,216,"New York",34.0522,-118.2437,0,1,0,1,1
+335,"Australia",2024-07-13,"Flu",45,171,"Brisbane",-33.8688,151.2093,0,0,0,0,1
+336,"China",2024-07-05,"SARS",17,557,"Guangzhou",23.1291,113.2644,1,0,0,0,1
+337,"Brazil",2024-04-24,"COVID",10,344,"Rio de Janeiro",-23.5505,-46.6333,1,1,1,0,0
+338,"India",2024-08-25,"COVID",1,145,"Mumbai",19.076,72.8777,1,0,0,0,0
+339,"Australia",2024-02-17,"Flu",18,401,"Brisbane",-33.8688,151.2093,0,1,1,1,0
+340,"Australia",2024-05-17,"Other",47,536,"Melbourne",-27.4698,153.0251,0,0,0,0,1
+341,"India",2024-01-28,"Ebola",1,112,"Delhi",12.9716,77.5946,0,0,1,0,0
+342,"India",2024-07-22,"Flu",40,86,"Bangalore",28.6139,77.209,1,1,0,1,0
+343,"India",2024-08-29,"Other",22,475,"Mumbai",19.076,72.8777,0,0,0,1,1
+344,"USA",2024-11-18,"SARS",4,108,"Los Angeles",40.7128,-74.006,0,0,0,1,0
+345,"China",2024-02-13,"Flu",5,225,"Shanghai",39.9042,116.4074,1,0,0,1,0
+346,"Brazil",2024-06-09,"Flu",49,848,"Sao Paulo",-22.9068,-43.1729,1,0,1,1,0
+347,"China",2024-06-12,"SARS",16,647,"Guangzhou",39.9042,116.4074,1,0,0,0,0
+348,"China",2024-04-24,"SARS",26,236,"Guangzhou",31.2304,121.4737,1,0,0,0,0
+349,"China",2024-11-30,"Ebola",11,230,"Beijing",23.1291,113.2644,1,0,0,1,1
+350,"Brazil",2024-03-17,"Cholera",14,390,"Brasilia",-15.8267,-47.9218,0,1,0,0,0
+351,"Brazil",2024-06-22,"Flu",33,141,"Sao Paulo",-15.8267,-47.9218,1,0,1,0,0
+352,"China",2024-04-03,"COVID",13,480,"Guangzhou",31.2304,121.4737,0,0,1,0,1
+353,"Brazil",2024-04-28,"Zika",1,703,"Brasilia",-15.8267,-47.9218,0,0,1,0,1
+354,"India",2024-05-25,"Other",15,811,"Bangalore",19.076,72.8777,0,1,0,0,0
+355,"China",2024-12-29,"COVID",14,394,"Shanghai",23.1291,113.2644,1,0,0,0,0
+356,"Brazil",2024-04-12,"Cholera",9,978,"Rio de Janeiro",-22.9068,-43.1729,0,0,1,1,1
+357,"India",2024-10-08,"COVID",23,470,"Mumbai",12.9716,77.5946,0,1,0,0,1
+358,"USA",2024-10-18,"Flu",26,189,"Chicago",34.0522,-118.2437,0,1,1,0,0
+359,"China",2024-02-25,"Ebola",2,645,"Shanghai",31.2304,121.4737,1,0,1,1,0
+360,"Brazil",2024-11-08,"Other",33,504,"Brasilia",-23.5505,-46.6333,0,1,1,0,0
+361,"USA",2024-01-03,"SARS",42,909,"Chicago",40.7128,-74.006,0,1,0,0,0
+362,"USA",2024-08-04,"Ebola",39,402,"Chicago",34.0522,-118.2437,0,0,1,0,0
+363,"Brazil",2024-01-11,"Flu",29,666,"Brasilia",-23.5505,-46.6333,0,0,0,0,1
+364,"Brazil",2024-02-20,"Ebola",15,672,"Rio de Janeiro",-15.8267,-47.9218,0,1,0,1,0
+365,"Australia",2024-09-28,"Flu",8,711,"Melbourne",-37.8136,144.9631,0,1,1,0,0
+366,"USA",2024-01-11,"Ebola",46,72,"Los Angeles",40.7128,-74.006,0,0,0,0,1
+367,"Brazil",2024-08-17,"Ebola",12,171,"Sao Paulo",-15.8267,-47.9218,1,1,1,0,0
+368,"Australia",2024-12-17,"COVID",26,520,"Melbourne",-33.8688,151.2093,0,0,0,1,0
+369,"China",2024-08-10,"Cholera",17,812,"Beijing",39.9042,116.4074,0,0,1,1,0
+370,"India",2024-04-10,"Flu",46,264,"Delhi",12.9716,77.5946,1,1,0,0,0
+371,"Australia",2024-05-24,"Other",43,538,"Brisbane",-37.8136,144.9631,0,0,1,0,0
+372,"Brazil",2024-05-12,"Cholera",8,581,"Rio de Janeiro",-22.9068,-43.1729,0,1,0,0,1
+373,"Brazil",2024-04-24,"SARS",34,413,"Sao Paulo",-15.8267,-47.9218,0,1,1,0,0
+374,"USA",2024-11-30,"Flu",44,571,"New York",34.0522,-118.2437,0,0,0,1,1
+375,"China",2024-08-30,"COVID",8,756,"Guangzhou",31.2304,121.4737,0,0,1,0,1
+376,"China",2024-04-05,"Other",47,442,"Beijing",39.9042,116.4074,0,1,0,0,0
+377,"China",2024-11-13,"Cholera",4,332,"Beijing",31.2304,121.4737,0,1,0,0,1
+378,"Australia",2024-03-31,"Ebola",39,892,"Melbourne",-27.4698,153.0251,0,1,0,0,1
+379,"India",2024-03-29,"Cholera",27,408,"Bangalore",28.6139,77.209,0,0,0,1,1
+380,"Australia",2024-05-22,"Other",17,834,"Brisbane",-27.4698,153.0251,0,0,0,1,0
+381,"India",2024-05-02,"Flu",5,885,"Bangalore",19.076,72.8777,1,1,0,1,0
+382,"USA",2024-10-17,"SARS",39,812,"New York",34.0522,-118.2437,1,0,1,0,0
+383,"Brazil",2024-01-30,"Flu",42,909,"Rio de Janeiro",-22.9068,-43.1729,0,0,1,1,1
+384,"India",2024-06-10,"Ebola",42,112,"Delhi",19.076,72.8777,0,0,1,1,0
+385,"India",2024-03-09,"Ebola",21,173,"Mumbai",28.6139,77.209,0,1,0,1,1
+386,"China",2024-05-09,"Ebola",25,272,"Shanghai",39.9042,116.4074,0,1,0,0,1
+387,"Australia",2024-07-26,"Zika",37,722,"Sydney",-37.8136,144.9631,0,1,1,1,0
+388,"USA",2024-01-23,"Ebola",35,604,"Chicago",41.8781,-87.6298,0,0,1,1,0
+389,"China",2024-08-03,"Flu",14,530,"Guangzhou",31.2304,121.4737,1,0,1,0,0
+390,"China",2024-10-03,"Zika",48,911,"Beijing",23.1291,113.2644,1,0,0,0,1
+391,"India",2024-10-01,"Ebola",26,72,"Bangalore",28.6139,77.209,1,0,1,0,1
+392,"Australia",2024-07-29,"Cholera",7,406,"Brisbane",-37.8136,144.9631,0,1,0,0,1
+393,"USA",2024-07-29,"Other",21,345,"Los Angeles",34.0522,-118.2437,0,0,0,0,1
+394,"Brazil",2024-07-15,"SARS",42,834,"Rio de Janeiro",-15.8267,-47.9218,0,1,0,1,1
+395,"Brazil",2024-06-21,"Ebola",49,136,"Rio de Janeiro",-22.9068,-43.1729,0,0,0,0,1
+396,"USA",2024-07-26,"Other",24,356,"New York",41.8781,-87.6298,1,0,1,0,1
+397,"China",2024-12-25,"Ebola",13,584,"Shanghai",39.9042,116.4074,0,1,1,1,0
+398,"Brazil",2024-02-01,"SARS",43,909,"Rio de Janeiro",-23.5505,-46.6333,0,1,0,0,0
+399,"Brazil",2024-02-17,"COVID",7,577,"Rio de Janeiro",-22.9068,-43.1729,0,0,0,1,1
+400,"USA",2024-09-27,"Flu",2,943,"Chicago",41.8781,-87.6298,0,0,1,0,1
+401,"Australia",2024-06-02,"SARS",41,189,"Sydney",-27.4698,153.0251,1,1,1,0,0
+402,"China",2024-02-04,"Flu",18,166,"Guangzhou",23.1291,113.2644,1,1,1,0,0
+403,"Brazil",2024-02-24,"Zika",30,679,"Rio de Janeiro",-22.9068,-43.1729,1,0,1,1,0
+404,"India",2024-05-31,"Ebola",43,145,"Delhi",28.6139,77.209,0,0,0,0,1
+405,"China",2024-01-17,"Ebola",45,871,"Shanghai",31.2304,121.4737,0,0,0,0,1
+406,"India",2024-11-22,"Other",44,692,"Delhi",19.076,72.8777,1,0,1,0,1
+407,"China",2024-11-28,"SARS",5,952,"Shanghai",31.2304,121.4737,0,0,1,1,1
+408,"China",2024-07-04,"Flu",25,539,"Beijing",31.2304,121.4737,0,0,1,1,1
+409,"USA",2024-09-25,"Other",28,308,"Chicago",40.7128,-74.006,1,0,1,0,1
+410,"Australia",2024-11-19,"SARS",38,870,"Sydney",-37.8136,144.9631,0,0,1,0,1
+411,"Brazil",2024-05-06,"Other",20,965,"Sao Paulo",-23.5505,-46.6333,1,1,0,0,0
+412,"Brazil",2024-01-25,"Flu",3,580,"Rio de Janeiro",-22.9068,-43.1729,0,0,1,1,0
+413,"Australia",2024-01-29,"Ebola",9,366,"Melbourne",-27.4698,153.0251,1,0,1,0,1
+414,"China",2024-06-29,"SARS",15,181,"Guangzhou",23.1291,113.2644,0,1,0,0,1
+415,"India",2024-01-16,"Zika",15,331,"Bangalore",28.6139,77.209,0,1,0,0,0
+416,"Brazil",2024-06-17,"Flu",34,441,"Brasilia",-15.8267,-47.9218,1,0,1,0,1
+417,"Australia",2024-08-27,"Flu",50,677,"Brisbane",-33.8688,151.2093,0,1,1,0,0
+418,"India",2024-01-09,"Ebola",50,994,"Bangalore",28.6139,77.209,0,1,1,1,0
+419,"China",2024-10-19,"Cholera",38,875,"Shanghai",23.1291,113.2644,0,1,0,1,1
+420,"China",2024-11-05,"COVID",29,960,"Beijing",31.2304,121.4737,1,0,0,0,1
+421,"USA",2024-08-01,"Cholera",20,778,"Chicago",40.7128,-74.006,0,1,0,0,1
+422,"China",2024-08-25,"COVID",26,762,"Shanghai",39.9042,116.4074,0,1,1,0,0
+423,"India",2024-08-23,"SARS",37,62,"Bangalore",28.6139,77.209,0,1,0,1,0
+424,"China",2024-01-24,"Other",46,166,"Beijing",31.2304,121.4737,0,1,1,1,0
+425,"China",2024-09-26,"Cholera",1,540,"Shanghai",31.2304,121.4737,0,0,0,1,1
+426,"USA",2024-06-06,"Zika",45,750,"Los Angeles",41.8781,-87.6298,1,1,0,1,0
+427,"India",2024-04-18,"COVID",35,799,"Bangalore",28.6139,77.209,0,0,1,1,0
+428,"India",2024-07-08,"Ebola",9,278,"Bangalore",19.076,72.8777,0,1,0,0,0
+429,"India",2024-04-25,"Flu",36,80,"Mumbai",28.6139,77.209,1,0,0,0,1
+430,"Brazil",2024-10-22,"COVID",43,604,"Brasilia",-23.5505,-46.6333,0,0,0,1,1
+431,"USA",2024-08-10,"Flu",3,680,"New York",40.7128,-74.006,0,0,1,0,1
+432,"Australia",2024-06-15,"Other",34,944,"Melbourne",-27.4698,153.0251,0,1,1,1,0
+433,"Australia",2024-08-16,"Flu",6,566,"Brisbane",-33.8688,151.2093,1,1,1,0,0
+434,"China",2024-03-12,"Cholera",10,73,"Beijing",39.9042,116.4074,0,1,0,0,0
+435,"China",2024-08-26,"Cholera",46,647,"Shanghai",39.9042,116.4074,1,0,0,1,1
+436,"Australia",2024-09-26,"Flu",1,274,"Melbourne",-37.8136,144.9631,0,1,1,0,1
+437,"USA",2024-11-16,"SARS",40,807,"New York",41.8781,-87.6298,0,1,0,1,1
+438,"Brazil",2024-05-30,"Flu",12,915,"Sao Paulo",-23.5505,-46.6333,0,0,1,1,1
+439,"India",2024-01-26,"Cholera",31,981,"Mumbai",28.6139,77.209,0,1,0,1,0
+440,"Australia",2024-02-15,"SARS",10,236,"Brisbane",-37.8136,144.9631,0,1,0,0,0
+441,"Brazil",2024-01-23,"Flu",22,983,"Sao Paulo",-22.9068,-43.1729,1,0,0,1,1
+442,"Australia",2024-08-10,"Flu",39,374,"Sydney",-37.8136,144.9631,0,0,0,1,0
+443,"USA",2024-07-09,"Ebola",39,652,"New York",40.7128,-74.006,0,0,1,0,0
+444,"India",2024-12-02,"Ebola",5,366,"Bangalore",19.076,72.8777,0,0,1,1,1
+445,"China",2024-09-12,"Other",4,68,"Shanghai",39.9042,116.4074,0,0,0,0,1
+446,"USA",2024-02-08,"Cholera",28,829,"Los Angeles",41.8781,-87.6298,0,1,1,1,0
+447,"USA",2024-11-22,"Other",40,82,"Los Angeles",41.8781,-87.6298,1,1,0,0,0
+448,"China",2024-02-14,"Ebola",40,507,"Guangzhou",23.1291,113.2644,1,0,0,0,1
+449,"India",2024-10-29,"Zika",36,80,"Bangalore",19.076,72.8777,0,0,1,1,0
+450,"Brazil",2024-11-27,"COVID",47,853,"Rio de Janeiro",-22.9068,-43.1729,0,0,1,0,0
+451,"Australia",2024-04-05,"Flu",41,507,"Brisbane",-33.8688,151.2093,0,0,0,1,0
+452,"China",2024-06-22,"COVID",0,192,"Beijing",39.9042,116.4074,1,0,0,1,1
+453,"Brazil",2024-11-11,"Cholera",9,333,"Brasilia",-22.9068,-43.1729,0,0,1,0,0
+454,"Australia",2024-03-23,"Flu",1,789,"Sydney",-33.8688,151.2093,1,1,1,0,0
+455,"China",2024-12-10,"Zika",34,779,"Guangzhou",23.1291,113.2644,0,0,1,0,1
+456,"USA",2024-05-16,"Other",44,697,"Chicago",34.0522,-118.2437,0,0,0,1,0
+457,"Australia",2024-04-18,"Ebola",38,391,"Melbourne",-27.4698,153.0251,1,1,0,1,0
+458,"India",2024-06-07,"Zika",12,863,"Delhi",12.9716,77.5946,0,0,0,1,0
+459,"Brazil",2024-06-14,"Other",27,172,"Rio de Janeiro",-15.8267,-47.9218,1,0,1,0,0
+460,"India",2024-10-15,"SARS",14,749,"Mumbai",19.076,72.8777,1,1,1,0,0
+461,"USA",2024-12-01,"Cholera",5,121,"New York",41.8781,-87.6298,0,0,1,1,0
+462,"Australia",2024-11-11,"Other",14,859,"Brisbane",-33.8688,151.2093,0,0,1,0,0
+463,"India",2024-03-12,"Zika",33,887,"Mumbai",19.076,72.8777,0,0,0,0,1
+464,"Australia",2024-05-12,"Other",48,757,"Brisbane",-33.8688,151.2093,1,1,1,0,0
+465,"USA",2024-11-14,"SARS",34,860,"Los Angeles",41.8781,-87.6298,0,0,1,0,1
+466,"USA",2024-07-20,"SARS",49,641,"Los Angeles",41.8781,-87.6298,1,1,1,0,0
+467,"India",2024-12-13,"Ebola",9,152,"Mumbai",19.076,72.8777,0,1,1,0,0
+468,"Brazil",2024-02-06,"Cholera",11,752,"Rio de Janeiro",-23.5505,-46.6333,0,1,0,0,0
+469,"India",2024-03-23,"Other",7,473,"Bangalore",19.076,72.8777,0,1,0,0,0
+470,"USA",2024-05-23,"Flu",7,272,"Chicago",34.0522,-118.2437,0,0,1,1,0
+471,"USA",2024-01-06,"Ebola",40,534,"New York",40.7128,-74.006,0,0,0,0,1
+472,"USA",2024-09-08,"Ebola",3,523,"Los Angeles",34.0522,-118.2437,1,1,0,0,1
+473,"Brazil",2024-06-28,"Ebola",14,991,"Sao Paulo",-23.5505,-46.6333,0,0,0,1,1
+474,"USA",2024-07-18,"Zika",16,799,"New York",34.0522,-118.2437,1,0,1,0,0
+475,"China",2024-03-29,"COVID",26,325,"Beijing",39.9042,116.4074,0,1,1,0,1
+476,"India",2024-04-04,"COVID",33,568,"Delhi",19.076,72.8777,1,0,0,0,1
+477,"USA",2024-10-28,"COVID",26,762,"Los Angeles",40.7128,-74.006,1,0,0,1,0
+478,"USA",2024-12-10,"COVID",6,773,"Chicago",40.7128,-74.006,0,1,1,1,0
+479,"Australia",2024-09-20,"Ebola",26,998,"Sydney",-27.4698,153.0251,1,0,0,0,0
+480,"Australia",2024-06-19,"Cholera",12,157,"Melbourne",-33.8688,151.2093,0,1,0,0,0
+481,"Brazil",2024-08-31,"Ebola",7,60,"Brasilia",-22.9068,-43.1729,0,1,1,0,0
+482,"Brazil",2024-10-06,"Cholera",24,610,"Brasilia",-22.9068,-43.1729,0,0,1,1,0
+483,"Brazil",2024-01-05,"Other",25,563,"Brasilia",-22.9068,-43.1729,0,1,1,0,1
+484,"Australia",2024-05-21,"Ebola",16,302,"Brisbane",-37.8136,144.9631,0,1,1,0,0
+485,"Brazil",2024-12-22,"Ebola",11,921,"Rio de Janeiro",-23.5505,-46.6333,0,0,0,1,0
+486,"USA",2024-12-20,"COVID",44,78,"Los Angeles",41.8781,-87.6298,1,0,0,0,1
+487,"China",2024-01-04,"Other",15,264,"Shanghai",39.9042,116.4074,0,1,0,0,0
+488,"Australia",2024-02-04,"SARS",9,726,"Brisbane",-33.8688,151.2093,1,1,1,0,0
+489,"Brazil",2024-08-25,"Flu",4,390,"Brasilia",-23.5505,-46.6333,1,1,1,0,0
+490,"India",2024-07-28,"Cholera",46,79,"Mumbai",12.9716,77.5946,0,0,1,1,1
+491,"USA",2024-09-22,"Other",5,485,"Chicago",34.0522,-118.2437,0,1,0,0,1
+492,"Brazil",2024-01-12,"Cholera",20,183,"Brasilia",-23.5505,-46.6333,0,0,0,1,1
+493,"USA",2024-05-07,"COVID",16,752,"New York",34.0522,-118.2437,0,1,0,1,0
+494,"China",2024-09-15,"COVID",25,360,"Shanghai",23.1291,113.2644,0,1,1,1,0
+495,"USA",2024-10-08,"Other",36,980,"New York",34.0522,-118.2437,1,1,0,0,0
+496,"China",2024-07-22,"Flu",42,293,"Guangzhou",39.9042,116.4074,1,0,1,0,0
+497,"China",2024-08-16,"Flu",30,76,"Guangzhou",23.1291,113.2644,0,0,1,0,1
+498,"India",2024-02-14,"Cholera",47,511,"Delhi",28.6139,77.209,1,1,0,1,0
+499,"China",2024-09-20,"Cholera",11,602,"Beijing",23.1291,113.2644,1,0,0,1,1
+500,"Brazil",2024-12-04,"Cholera",28,877,"Brasilia",-22.9068,-43.1729,1,0,1,0,1

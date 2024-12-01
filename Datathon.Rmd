@@ -188,9 +188,12 @@ complex_data <- complex_data %>%
 print(head(complex_data))
 
 
-
+```
+```{r save}
+write.csv(complex_data, "fake_pandemic_data.csv", row.names = FALSE)
 
 ```
+
 ```{r model}
 library(forecast)
 
